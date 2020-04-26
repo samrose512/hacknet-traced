@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="startingMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="hasFlag" target="firstIRCFlag"/>
+</goals>
+<missionStart>loadConditionalActions:Actions/StartingMissionActions.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>IRC HackDetectBot</sender>
+    <subject>URGENT - Hack detected</subject>
+    <body>Dear user,
+An IRC that you are a member of has detected an attempted compromise.
+To keep you and your messages secure, your previous messages in the server have been permanently deleted.
+A new IRC server has been attached to this email. Please join this if you wish to continue chatting with your fellow users.
+Your username and password configuration files have also been migrated to the new IRC server and have been deleted from the compromised server.
+
+Thank you for using my service.
+HackDetectBot
+    </body>
+    <attachments>
+      <link comp="newIRC"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+Starting HacknetOS v5.069...
+----------------------------
+Loading boot configuration.........done.
+Loading OS configuration.........done.
+Loading network configuration.........done.
+Loading X server configuration.........done.
+----------------------------
+Checking for new mail.........
+You have (1) new message.
+----------------------------

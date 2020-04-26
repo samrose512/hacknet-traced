@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <OnConnect target="newIRC">
+    <RunFunction FunctionName="addFlags" FunctionValue="firstIRCFlag"/>
+  </OnConnect>
+</ConditionalActions>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="newIRC" name="7418390302566.ircs" security="4" allowsDefaultBootModule="true" type="4">
+  <admin type="basic"/>
+  <account username="#PLAYERNAME#" password="#PLAYER_ACCOUNT_PASSWORD#" type="ALL"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <trace time="200"/>
+  <proxy time="1"/>
+  <firewall level="5" additionalTime="0.25"/>
+
+  <DHSDaemon groupName="7418390302566" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="255,255,255" allowContractAbbandon="false">
+    <agent name="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#" color="255,255,255"/>
+    <agent name="Mentel" pass="parisianbaguette" color="255,255,255"/>
+    <agent name="c0deMagick" pass="mensatest" color="255,255,255"/>
+    <agent name="UniteSystem" pass="fuckthesystem" color="255,255,255"/>
+  </DHSDaemon>
+
+</Computer>

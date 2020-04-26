@@ -1,0 +1,23 @@
+<HacknetExtension>
+  <Language>en-us</Language>
+  <Name>HJ2_Project</Name>
+  <AllowSaves>true</AllowSaves>
+  <StartingVisibleNodes></StartingVisibleNodes>
+  <StartingMission>Missions/StartingMission.xml</StartingMission>
+  <StartingActions>NONE</StartingActions>
+  <Description>Created for Hackerjam 2.</Description>
+  <StartsWithTutorial>False</StartsWithTutorial>
+  <HasIntroStartup>true</HasIntroStartup>
+  <StartingTheme>HacknetTeal</StartingTheme>
+  <IntroStartupSong>Music/MrMegaman.ogg</IntroStartupSong>
+  <SequencerTargetID>sequencerNode</SequencerTargetID>
+  <SequencerSpinUpTime>14.5</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>sequencerFlag</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/SequencerActions.xml</ActionsToRunOnSequencerStart>
+  <WorkshopDescription>Created for #Hackerjam2</WorkshopDescription>
+  <WorkshopLanguage>English</WorkshopLanguage>
+  <WorkshopVisibility>0</WorkshopVisibility>
+  <WorkshopTags>Extension</WorkshopTags>
+  <WorkshopPreviewImagePath>Logo.png</WorkshopPreviewImagePath>
+  <WorkshopPublishID>NONE</WorkshopPublishID>
+</HacknetExtension>

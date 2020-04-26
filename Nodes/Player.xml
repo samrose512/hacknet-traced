@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="playerComp" name="#PLAYERNAME# PC" security="1" allowsDefaultBootModule="false" type="4">
+  <adminPass pass="#PLAYER_ACCOUNT_PASSWORD#"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <trace time="150"/>
+  <proxy time="1.5"/>
+  <firewall level="5" additionalTime="0.25"/>
+  <encryptedFile path="home" name="Encrypt_20200426.dec" extension=".txt" ip="192.168.1.1" header="Encrypted file 20200426" pass="birkin">Something is coming.
+
+  2021.</encryptedFile>
+</Computer>
