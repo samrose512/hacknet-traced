@@ -1,0 +1,3 @@
+<CustomFaction name="Ghosts" id="ghostsFac" playerVal="0">
+  <Action ValueRequired="1">
+    <AddIRCMessage

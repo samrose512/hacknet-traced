@@ -4,6 +4,7 @@
   <goal type="hasFlag" target="firstIRCFlag"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/StartingMissionActions.xml</missionStart>
+<missionEnd>loadConditionalActions:Actions/StartingMissionEndActions.xml</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <email>
     <sender>IRC HackDetectBot</sender>

@@ -1,0 +1,7 @@
+Complete Actions/StartingMissionEndActions.xml to include more faction setup stuff
+
+Complete Faction file and add it to ExtensionInfo.xml
+
+Add FastActionHost node as Nodes/FAH.xml
+
+Set up some missions on newIRC to test

@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="firstIRCFlag">
+    <ChangeAlertIcon Target="newIRC" Type="irchub" DelayHost="FAH" Delay="0"/>
+  </HasFlags>
+</ConditionalActions>

@@ -1,8 +1,8 @@
 <HacknetExtension>
   <Language>en-us</Language>
-  <Name>HJ2_Project</Name>
+  <Name>Hacknet: Traced</Name>
   <AllowSaves>true</AllowSaves>
-  <StartingVisibleNodes></StartingVisibleNodes>
+  <StartingVisibleNodes>oldIRC</StartingVisibleNodes>
   <StartingMission>Missions/StartingMission.xml</StartingMission>
   <StartingActions>NONE</StartingActions>
   <Description>Created for Hackerjam 2.</Description>
