@@ -1,2 +1,2 @@
 MrMegaman.ogg - use as IntroStartupSong
-PeerGynt.ogg - use as Sequencer song (14.5 seconds -> connection to Sequencer Node)
+Hype.ogg - use as Sequencer song (49.5 seconds (cut this down) -> connection to Sequencer Node)

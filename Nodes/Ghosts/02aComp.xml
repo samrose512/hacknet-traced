@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="02aComp" name="02a Node" allowsDefaultBootModule="true" icon="DLCPC1" type="4">
+  <admin type="basic"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="1"/>
+  <trace time="150"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <CustomConnectDisplayDaemon/>
+  <file path="home" name="placeholder.txt">placeholder file for Missions/Ghosts/02/02a.xml</file>
+</Computer>

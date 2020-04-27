@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghosts02a" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedeletion" target="02aComp" file="placeholder.txt" path="home"/>
+</goals>
+<missionEnd val="1">addRankSilent</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="02a">posting placeholder</posting>
+  <email>
+    <sender>Test</sender>
+    <subject>Test</subject>
+    <body>Test</body>
+    <attachments>
+      <link comp="02aComp"/>
+    </attachments>
+  </email>
+</mission>

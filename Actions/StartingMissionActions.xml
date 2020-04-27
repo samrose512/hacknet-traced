@@ -1,5 +1,9 @@
 <ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="setFaction:ghostsFac"/>
+    <RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated"/>
+  </Instantly>
   <OnConnect target="newIRC">
-    <RunFunction FunctionName="addFlags" FunctionValue="firstIRCFlag"/>
+    <RunFunction FunctionName="addFlags:firstIRCFlag"/>
   </OnConnect>
 </ConditionalActions>

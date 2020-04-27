@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghosts01c" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="File Acquisition">Secure a copy of a file for our group.</posting>
+  <email>
+    <sender>Test</sender>
+    <subject>Test</subject>
+    <body>Test</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

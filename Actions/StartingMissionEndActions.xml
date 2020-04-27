@@ -1,5 +1,6 @@
 <ConditionalActions>
   <HasFlags requiredFlags="firstIRCFlag">
+    <RunFunction FunctionName="addRankSilent" FunctionValue="1"/>
     <ChangeAlertIcon Target="newIRC" Type="irchub" DelayHost="FAH" Delay="0"/>
   </HasFlags>
 </ConditionalActions>

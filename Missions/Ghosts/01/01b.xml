@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghosts01b" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="Software Plagiarism">Solve a company's problem with plagiarism.</posting>
+  <email>
+    <sender>Test</sender>
+    <subject>Test</subject>
+    <body>Test</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

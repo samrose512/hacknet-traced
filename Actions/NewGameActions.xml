@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <GivePlayerUserAccount TargetComp="oldIRC" Username="#PLAYERNAME#"/>
+  </Instantly>
+</ConditionalActions>

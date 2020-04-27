@@ -4,8 +4,9 @@
   <AllowSaves>true</AllowSaves>
   <StartingVisibleNodes>oldIRC</StartingVisibleNodes>
   <StartingMission>Missions/StartingMission.xml</StartingMission>
-  <StartingActions>NONE</StartingActions>
+  <StartingActions>Actions/NewGameActions.xml</StartingActions>
   <Description>Created for Hackerjam 2.</Description>
+  <Faction>Factions/StartingFaction.xml</Faction>
   <StartsWithTutorial>False</StartsWithTutorial>
   <HasIntroStartup>true</HasIntroStartup>
   <StartingTheme>HacknetTeal</StartingTheme>

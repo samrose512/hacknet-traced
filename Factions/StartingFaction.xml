@@ -1,3 +1,14 @@
 <CustomFaction name="Ghosts" id="ghostsFac" playerVal="0">
   <Action ValueRequired="1">
-    <AddIRCMessage
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="5.0">Test message</AddIRCMessage>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01a.xml" TargetComp="newIRC"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01b.xml" TargetComp="newIRC" AssignmentTag="UniteSystem"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01c.xml" TargetComp="newIRC" AssignmentTag="c0deMagick"/>
+  </Action>
+  <Action ValueRequired="2">
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="5.0">New missions everyone! And a lovely new tool...</AddIRCMessage>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02a.xml" TargetComp="newIRC"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02b.xml" TargetComp="newIRC"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02c.xml" TargetComp="newIRC"/>
+  </Action>
+</CustomFaction>

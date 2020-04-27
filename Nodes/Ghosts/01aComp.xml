@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="01aComp" name="Michael PC" security="1" allowsDefaultBootModule="false" type="4">
+  <admin type="basic"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="0"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <file path="home" name="ghosts.txt">Leader: Mentel
+Name: Ghosts
+Aim: To cause as much chaos as possible, potentially halting the internet as we know it.</file>
+</Computer>

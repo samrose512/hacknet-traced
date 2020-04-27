@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghosts01a" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedeletion" target="01aComp" file="ghosts.txt" path="home"/>
+  <goal type="filedeletion" target="01aComp" file="Evidence.dec" path="home"/>
+</goals>
+<missionEnd val="1">addRankSilent</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="Cleaning Service">Delete an incriminating </posting>
+  <email>
+    <sender>Cleaning Service</sender>
+    <subject>Cleaning Service</subject>
+    <body>#PLAYERNAME#,
+Our group is under attack from a guy who thinks he is doing good by planning to release "evidence" to the world that our group is malicious.
+This is not true.</body>
+    <attachments>
+      <link comp="01aComp"/>
+    </attachments>
+  </email>
+</mission>
