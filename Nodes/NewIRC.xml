@@ -10,9 +10,9 @@
 
   <DHSDaemon groupName="7418390302566" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="255,255,255" allowContractAbbandon="false">
     <agent name="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#" color="255,255,255"/>
-    <agent name="Mentel" pass="parisianbaguette" color="255,255,255"/>
-    <agent name="c0deMagick" pass="mensatest" color="255,255,255"/>
-    <agent name="UniteSystem" pass="fuckthesystem" color="255,255,255"/>
+    <agent name="Mentel" pass="parisianbaguette" color="255,128,0"/>
+    <agent name="c0deMagick" pass="mensatest" color="0,153,0"/>
+    <agent name="UniteSystem" pass="fuckthesystem" color="255,0,0"/>
   </DHSDaemon>
 
 </Computer>

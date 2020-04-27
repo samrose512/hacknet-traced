@@ -9,11 +9,11 @@
   <firewall level="4" additionalTime="0.25"/>
 
   <IRCDaemon themeColor="255,255,255" name="0581862903047" needsLogin="true">
-    <user name="HackDetectBot" color="255,255,255"/>
+    <user name="HackDetectBot" color="160,160,160"/>
     <user name="#PLAYERNAME#" color="255,255,255"/>
-    <user name="Mentel" color="255,255,255"/>
-    <user name="c0deMagick" color="255,255,255"/>
-    <user name="UniteSystem" color="255,255,255"/>
+    <user name="Mentel" color="255,128,0"/>
+    <user name="c0deMagick" color="0,153,0"/>
+    <user name="UniteSystem" color="255,0,0"/>
 
     <post user="HackDetectBot">=== SERVER HACK DETECTED ===</post>
     <post user="HackDetectBot">Removing all previous user-created posts...</post>
@@ -25,7 +25,7 @@
     <post user="Mentel">get out of here guys, i've got this</post>
     <post user="UniteSystem">fuck that I'm finding out who did this</post>
     <post user="Mentel">i'm sorry everyone</post>
-    <post user="Mentel">/ban @UniteSystem @c0deMagick @#PLAYERNAME</post>
+    <post user="Mentel">/ban @UniteSystem @c0deMagick @#PLAYERNAME#</post>
   </IRCDaemon>
 
 </Computer>

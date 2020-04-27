@@ -1,5 +1,6 @@
 <ConditionalActions>
   <Instantly>
-    <GivePlayerUserAccount TargetComp="oldIRC" Username="#PLAYERNAME#"/>
+    <GivePlayerUserAccount DelayHost="FAH" Delay="1.0" TargetComp="oldIRC" Username="#PLAYERNAME#"/>
+    <GivePlayerUserAccount DelayHost="FAH" Delay="1.0" TargetComp="newIRC" Username="#PLAYERNAME#"/>
   </Instantly>
 </ConditionalActions>

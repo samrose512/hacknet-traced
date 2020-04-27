@@ -8,7 +8,7 @@
   <Description>Created for Hackerjam 2.</Description>
   <Faction>Factions/StartingFaction.xml</Faction>
   <StartsWithTutorial>False</StartsWithTutorial>
-  <HasIntroStartup>true</HasIntroStartup>
+  <HasIntroStartup>false</HasIntroStartup>
   <StartingTheme>HacknetTeal</StartingTheme>
   <IntroStartupSong>Music/MrMegaman.ogg</IntroStartupSong>
   <SequencerTargetID>sequencerNode</SequencerTargetID>
