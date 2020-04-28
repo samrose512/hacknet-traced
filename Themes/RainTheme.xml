@@ -1,0 +1,70 @@
+<CustomTheme>
+
+  <themeLayoutName>green</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Rain.png</backgroundImagePath>
+
+  <!-- Main Colors - these will define the main feel of the theme -->
+  <!-- Color of nodes on the netmap, and many other derived colors. -->
+  <defaultHighlightColor>191,150,38</defaultHighlightColor>
+  <defaultTopBarColor>1,26,52,255</defaultTopBarColor>
+  
+  <!-- This is used for the outlines of the module windows -->
+  <moduleColorSolidDefault>0,96,140</moduleColorSolidDefault>
+  <moduleColorStrong>1,13,33,100</moduleColorStrong>
+  <moduleColorBacking>0,1,5,99</moduleColorBacking>
+  
+  <!-- modules -->
+	<!-- RAM-->
+	<exeModuleTitleText>237,186,47,255</exeModuleTitleText>
+	<exeModuleTopBar>10,10,10,100</exeModuleTopBar>
+	<indentBackgroundColor>0,96,140</indentBackgroundColor>
+	<!-- Module Headers -->
+	<semiTransText>150, 192, 194</semiTransText>
+  
+  <!-- Text colors -->
+  <terminalTextColor>150, 192, 194</terminalTextColor>
+  <subtleTextColor>1,26,52</subtleTextColor>
+  
+  <!-- color colors -->
+  <superLightWhite>0,1,1,0</superLightWhite>
+  <lightGray>10,10,10</lightGray>
+  
+  <!-- Extra Options -->
+  <warningColor>251,64,0</warningColor>
+
+  <!-- Port colors? -->
+  <darkBackgroundColor>8,8,8</darkBackgroundColor>
+  
+  <outlineColor>200,200,200,0</outlineColor>
+  
+  <lockedColor>87,4,15,200</lockedColor>
+  <brightLockedColor>240,63,43</brightLockedColor>
+  <brightUnlockedColor>122,240,43</brightUnlockedColor>
+  <unlockedColor>4,87,76</unlockedColor>
+  
+  <!-- top bar-->
+  <topBarIconsColor>150, 192, 194</topBarIconsColor>
+  <topBarTextColor>150, 192, 194,255</topBarTextColor>
+  
+  <!-- Netmap options -->
+  <netmapToolTipColor>150,192,194,255</netmapToolTipColor>
+  <netmapToolTipBackground>1,1,1,70</netmapToolTipBackground>
+  
+  <thisComputerNode>4,183,189</thisComputerNode>
+  
+  <connectedNodeHighlight>185,92,0,125</connectedNodeHighlight>
+  <shellColor>251,179,0</shellColor>
+  
+  <!-- whatever this one does? -->
+  <shellButtonColor>10,10,10</shellButtonColor>
+  
+  <!-- effect colors -->
+  <scanlinesColor>250,250,250,25</scanlinesColor>
+  
+  <!-- AlienFX Colors used for Alienware (and other) hardware with variable LED lights that Hacknet can set dynamically -->
+  <AFX_KeyboardMiddle>1,26,52</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>1,26,52</AFX_KeyboardOuter>
+  <AFX_WordLogo>191,150,38</AFX_WordLogo>
+  <AFX_Other>191,150,38</AFX_Other>
+  
+</CustomTheme>

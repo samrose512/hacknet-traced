@@ -9,7 +9,7 @@
   <Faction>Factions/StartingFaction.xml</Faction>
   <StartsWithTutorial>False</StartsWithTutorial>
   <HasIntroStartup>false</HasIntroStartup>
-  <StartingTheme>HacknetTeal</StartingTheme>
+  <StartingTheme>Themes/RainTheme.xml</StartingTheme>
   <IntroStartupSong>Music/MrMegaman.ogg</IntroStartupSong>
   <SequencerTargetID>sequencerNode</SequencerTargetID>
   <SequencerSpinUpTime>14.5</SequencerSpinUpTime>
