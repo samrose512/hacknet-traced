@@ -9,4 +9,5 @@
   <file path="home" name="ghosts.txt">Leader: Mentel
 Name: Ghosts
 Aim: To cause as much chaos as possible, potentially halting the internet as we know it.</file>
+  <encryptedFile path="home" name="Evidence.dec" extension=".txt" ip="192.168.1.1" header="Evidence against Ghosts" password="r1cht3a">104.22.138.254</encryptedFile>
 </Computer>

@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="ghostsAssets" name="Ghosts Assets Server" security="3" allowsDefaultBootModule="false" type="4">
+<Computer id="ghostsAssets" name="Ghosts Assets Server" security="3" ip="48.120.6.175" allowsDefaultBootModule="false" type="4">
   <adminPass pass="ladyb1rd"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="4"/>

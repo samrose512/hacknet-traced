@@ -6,7 +6,7 @@
 </goals>
 <missionEnd val="1">addRankSilent</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
-  <posting title="Cleaning Service">Delete an incriminating </posting>
+  <posting title="Cleaning Service">Delete an incriminating file on an opposer's computer.</posting>
   <email>
     <sender>Cleaning Service</sender>
     <subject>Cleaning Service</subject>
