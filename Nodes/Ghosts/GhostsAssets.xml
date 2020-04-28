@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="ghostsAssets" name="Ghosts Assets Server" security="3" allowsDefaultBootModule="false" type="4">
+  <adminPass pass="ladyb1rd"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <trace time="100"/>
+  <proxy time="1.5"/>
+  <firewall level="6" additionalTime="0.25"/>
+</Computer>

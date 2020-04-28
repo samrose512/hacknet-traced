@@ -10,8 +10,19 @@
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01c.xml" TargetComp="newIRC" AssignmentTag="c0deMagick"/>
   </Action>
   <Action ValueRequired="2">
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">New missions everyone! And a lovely new tool...</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="4.0">put thing here</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="4.0">!ATTACHMENT:link#%#Ghosts Assets Server#%#48.120.6.175</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="5.5">!ATTACHMENT:account#%#ghostsAssets#%#48.120.6.175#%#admin#%#ladyb1rd</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.0">woah</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="10.0">This is...</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="11.0">Wow.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="13.0">how did you even get this</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="14.0">it couldn't have been legal, right</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="16.0">We're hackers.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="17.0">Everything we do is illegal.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="18.0">true, true</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="20.0">okay guys the missions are up, go now</AddIRCMessage>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02a.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02b.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02c.xml" TargetComp="newIRC"/>
