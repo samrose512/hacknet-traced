@@ -1,6 +1,5 @@
 <ConditionalActions>
   <Instantly>
-    <GivePlayerUserAccount DelayHost="FAH" Delay="1.0" TargetComp="oldIRC" Username="#PLAYERNAME#"/>
-    <GivePlayerUserAccount DelayHost="FAH" Delay="1.0" TargetComp="newIRC" Username="#PLAYERNAME#"/>
+    <AddAsset FileName="ThemeChanger.exe" FileContents="#THEMECHANGER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
   </Instantly>
 </ConditionalActions>

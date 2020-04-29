@@ -3,7 +3,7 @@
 <goals>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
-  <posting title="02b">posting placeholder</posting>
+  <posting title="Visual Basics">Produce a backdoor using a recently discovered Visual Advanced exploit.</posting>
   <email>
     <sender>Test</sender>
     <subject>Test</subject>

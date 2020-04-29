@@ -12,7 +12,7 @@
     <body>Dear user,
 An IRC that you are a member of has detected an attempted compromise.
 To keep you and your messages secure, your previous messages in the server have been permanently deleted.
-A new IRC server has been attached to this email. Please join this if you wish to continue chatting with your fellow users.
+A new IRC server has been attached to this email, as well as old and new account details. Please join this if you wish to continue chatting with your fellow users.
 Your username and password configuration files have also been migrated to the new IRC server and have been deleted from the compromised server.
 
 Thank you for using my service.
@@ -20,6 +20,8 @@ HackDetectBot
     </body>
     <attachments>
       <link comp="newIRC"/>
+      <account comp="oldIRC" user="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#"/>
+      <account comp="newIRC" user="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#"/>
     </attachments>
   </email>
 </mission>

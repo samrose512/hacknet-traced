@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="newIRC" name="7418390302566.ircs" security="4" allowsDefaultBootModule="true" type="4">
+<Computer id="newIRC" name="7418390302566.ircs" ip="172.80.46.101" security="4" allowsDefaultBootModule="true" type="4">
   <admin type="basic"/>
   <account username="#PLAYERNAME#" password="#PLAYER_ACCOUNT_PASSWORD#" type="ALL"/>
   <ports>21,22,25,80</ports>

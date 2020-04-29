@@ -1,17 +1,19 @@
 <CustomFaction name="Ghosts" id="ghostsFac" playerVal="0">
   <Action ValueRequired="1">
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">sorry everyone, had to do it. i couldnt afford to take any chances.</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="5.0">it's... it's fine</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="7.5">What now?</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="10.0">hang on a sec...</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="15.0">there. new missions for you guys. have a go at them and i'll try and get us back up</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">it's... it's fine</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="10.0">What now?</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="12.5">hang on a sec...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="17.0">there. new missions for you guys. have a go at them and i'll try and get us back up</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="20.0">oh, and @#PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="22.5">sorry this happened. this hasn't a very good induction for you lol</AddIRCMessage>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01a.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01b.xml" TargetComp="newIRC" AssignmentTag="UniteSystem"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/01/01c.xml" TargetComp="newIRC" AssignmentTag="c0deMagick"/>
   </Action>
   <Action ValueRequired="2">
     <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">New missions everyone! And a lovely new tool...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">new missions everyone! and a lovely new tool...</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="5.0">!ATTACHMENT:link#%#Ghosts Assets Server#%#48.120.6.175</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="6.0">!ATTACHMENT:account#%#ghostsAssets#%#48.120.6.175#%#admin#%#ladyb1rd</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">woah</AddIRCMessage>
@@ -20,11 +22,41 @@
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="16.0">how did you even get this</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="18.5">it couldn't have been legal, right</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="21.0">We're hackers.</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="23.5">Everything we do is illegal.</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="26.0">true, true</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="28.5">okay guys the missions are up, go now</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="24.0">Everything we do is illegal.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="26.5">true, true</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="30.0">okay guys the missions are up, go now</AddIRCMessage>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02a.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02b.xml" TargetComp="newIRC" AssignmentTag="UniteSystem"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/02/02c.xml" TargetComp="newIRC" AssignmentTag="c0deMagick"/>
+  </Action>
+  <Action ValueRequired="3">
+    <AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">good job everyone.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="6.0">thanks so much for this, you're helping me so much with our projects</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">yeah when are any of these "projects" going to be done</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="12.0">Unite's right.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="15.0">We have been working towards your projects. I think we should know what they are.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="17.5">well, i'm glad you asked because one of them just got completed.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="20.0">check the assets server.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="23.5">...</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="25.0">im sorry</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="27.5">for what?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="31.0">im sorry for moaning at you</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="33.5">oh, it's fine! don't worry about it.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="37.0">You guys. You need to see this program Mentel uploaded.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="42.0">It's an FTP cracker. Even faster than the one I have. Optimised too.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="45.0">new missions. have fun...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="46.5">actually...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="49.0">let's give #PLAYERNAME# the first choice.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="51.5">fine with me</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="54.0">Alright.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="57.5">great! @#PLAYERNAME# choose the one that looks the most interesting to you.</AddIRCMessage>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03a.xml" TargetComp="newIRC"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03b.xml" TargetComp="newIRC"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03c.xml" TargetComp="newIRC"/>
+  </Action>
+  <Action ValueRequired="4">
+    <!--<AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">!ATTACHMENT:link#%#Credits Server#%#178.36.97.4</AddIRCMessage>-->
+    <AddConditionalActions Filepath="Actions/EndActions.xml" DelayHost="FAH" Delay="5.0"/>
   </Action>
 </CustomFaction>

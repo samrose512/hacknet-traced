@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <Instantly>
+    <!--<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="0"/>
+    <LoadMission MissionName="Missions/EndMission.xml"/>-->
+    <RunFunction FunctionName="playCustomSong:Music/Autophagy.ogg"/>
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="endMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>Samaritan</sender>
+    <subject>Congratulations</subject>
+    <body>Greetings #PLAYERNAME#,
+Congratulations on completing Hacknet: Traced! This extension was the largest extension I've ever made, and I've learned a lot of things from it.
+
+Big thanks to Fayti1703 for the colossal number of questions I asked him, and to RubberDuckShobe for some playtesting.
+
+This extension was created over 3 days and I had a lot of fun making it.
+
+Take a look at the credits server linked below to completely end the extension once and for all.
+
+
+Thanks for playing!
+Samaritan
+    </body>
+    <attachments>
+      <link comp="credits"/>
+    </attachments>
+  </email>
+</mission>

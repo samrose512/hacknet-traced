@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="03c" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedeletion" target="03cComp" file="placeholder.txt" path="home"/>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="03c">posting placeholder</posting>
+  <email>
+    <sender>Test</sender>
+    <subject>Test</subject>
+    <body>Test</body>
+    <attachments>
+      <link comp="03cComp"/>
+    </attachments>
+  </email>
+</mission>

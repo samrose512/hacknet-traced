@@ -1,17 +1,22 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="ghosts02a" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="filedeletion" target="02aComp" file="placeholder.txt" path="home"/>
+  <goal type="filechange" target="02aComp" file="sshd_config" path="sys" keyword="192.168.1.13" removal="true"/>
+  <goal type="filechange" target="02aComp" file="sshd_config" path="sys" keyword="172.80.46.101" caseSensitive="true"/>
 </goals>
-<missionEnd val="1">addRankSilent</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
-  <posting title="02a">posting placeholder</posting>
+  <posting title="Access Control">We need SSH access to a node to continue some of our projects.</posting>
   <email>
-    <sender>Test</sender>
-    <subject>Test</subject>
-    <body>Test</body>
+    <sender>Access Control</sender>
+    <subject>Access Control</subject>
+    <body>#PLAYERNAME#,
+At Ghosts, we perform many projects, be it on security tools or on exploitable code.
+
+To continue some of our most important projects, we need access to a system, namely through SSH. Once you've gained admin access to the system, refer to the notes given below.</body>
     <attachments>
       <link comp="02aComp"/>
+      <note title="Editing SSH config file">Once you have gained admin access to a system, look in the sys folder and edit sshd_config to add this IP address. You will probably need to replace existing text.
+IP to add: 172.80.46.101</note>
     </attachments>
   </email>
 </mission>

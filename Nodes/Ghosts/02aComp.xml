@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="02aComp" name="02a Node" allowsDefaultBootModule="true" icon="DLCPC1" type="4">
+<Computer id="02aComp" name="Jane NUC v2.14.10378" allowsDefaultBootModule="true" icon="DLCPC1" type="4">
   <admin type="basic"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="1"/>
@@ -7,5 +7,21 @@
   <proxy time="-1"/>
   <firewall level="-1"/>
   <CustomConnectDisplayDaemon/>
-  <file path="home" name="placeholder.txt">placeholder file for Missions/Ghosts/02/02a.xml</file>
+  <file path="sys" name="sshd_config"># FreeSSH configuration file
+# The user to run sshd_config as
+user=admin
+
+# The IP to allow access
+ip-access=192.168.1.13
+
+# Permit password access
+password-access-enabled=true
+
+# Allow key access and require a key for a connection
+key-access-enabled=true
+require-key-access=false
+
+# Hard drive(s) to allow read/write access on
+# This can be /dev/sdX, /dev/sdXy, or ALL
+read-write-access-locations=ALL</file>
 </Computer>
