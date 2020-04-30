@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03aNetworkFileServer" name="03a Network File Server" security="3" allowsDefaultBootModule="true" type="4">
+<Computer id="03aNetworkFileServer" name="Simon File Server" ip="47.8.129.30" security="3" allowsDefaultBootModule="true" type="4">
   <admin type="basic"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="1"/>

@@ -8,7 +8,6 @@
   <firewall level="6" additionalTime="1.5"/>
   <dlink target="03aNetworkWhitelist"/>
   <dlink target="03aNetworkVersionControl"/>
-  <dlink target="03aNetworkFileServer"/>
   <file path="home/dev" name="FileSanitiser.cs">public static class FileSanitiser
 {
     public static string purifyStringForDisplay(string data)
