@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03aNetworkEntrance" name="Network Entry Point #177013" allowsDefaultBootModule="true" icon="DLCPC1" type="icon">
+  <admin type="fast"/>
+  <ports>21,22,25,80,443</ports>
+  <portsForCrack val="2"/>
+  <trace time="50"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <dlink target="03aNetworkWhitelist"/>
+  <dlink target="03aNetworkVersionControl"/>
+  <LogoCustomConnectDisplayDaemon logo="03aNetworkEntranceLogo.png" title="Network #177013 Entrance Node" overdrawLogo="true" buttonAlignment="right"/>
+</Computer>

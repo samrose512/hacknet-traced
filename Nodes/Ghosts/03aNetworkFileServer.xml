@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03aNetworkFileServer" name="03a Network File Server" security="3" allowsDefaultBootModule="true" type="4">
+  <admin type="basic"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="1"/>
+  <trace time="100"/>
+  <proxy time="1"/>
+  <firewall level="-1"/>
+  <dlink target="03aNetworkEntrance"/>
+  <dlink target="03aNetworkWhitelist"/>
+  <dlink target="03aNetworkVersionControl"/>
+  <dlink target="03aNetworkSimonLaptop"/>
+  <CustomConnectDisplayDaemon/>
+  <file path="home" name="KernelSource_v1.00.tar.gz">#BINARY##BINARY##BINARY##BINARY#</file>
+  <file path="home" name="KernelSource_v1.01.tar.gz">#BINARY##BINARY##BINARY##BINARY##BINARYSMALL#</file>
+  <file path="home" name="KernelSource_v1.02.tar.gz">#BINARY##BINARY##BINARY##BINARY##BINARY#</file>
+  <file path="home" name="KernelSource_v1.03.tar.gz">#BINARY##BINARY##BINARY##BINARY##BINARY##BINARYSMALL#</file>
+  <file path="home" name="KernelSource_v1.04_Unreleased.tar.gz">#BINARY##BINARY##BINARY##BINARY##BINARY##BINARY#</file>
+</Computer>

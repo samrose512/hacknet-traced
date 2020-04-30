@@ -1,16 +1,25 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="03a" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="filedeletion" target="03aComp" file="placeholder.txt" path="home"/>
+  <goal type="filedownload" target="03aNetworkFileServer" file="KernelUpgradeSource_v1.04_Unreleased.tar.gz" path="home"/>
+  <goal type="fileupload" target="playerComp" file="KernelUpgradeSource_v1.04_Unreleased.tar.gz" path="home" destTarget="ghostsAssets" destPath="home"/>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
-<posting title="03a">posting placeholder</posting>
+<posting title="Kernel Mustard">Secure unreleased source code to satisfy our curiosity.</posting>
   <email>
-    <sender>Test</sender>
-    <subject>Test</subject>
-    <body>Test</body>
+    <sender>Kernel Mustard</sender>
+    <subject>Kernel Mustard</subject>
+    <body>#PLAYERNAME#,
+This is more of a personal request from c0deMagick, but we should all help each other, right?
+He wants to study the source code of a kernel and find out the new changes. Unfortunately, most people are unable to download the source code as it is unreleased.
+Fortunately we aren't like most people.
+
+Find the source code and upload it to the home folder of the asset server.
+    </body>
     <attachments>
-      <link comp="03aComp"/>
+      <note title="Source code info">For ease of accessibility, source code is usually compressed into the .tar.gz format.</note>
+      <link comp="03aNetworkEntrance"/>
+      <link comp="ghostsAssets"/>
     </attachments>
   </email>
 </mission>

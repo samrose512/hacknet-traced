@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03aNetworkSimonLaptop" name="Simon Laptop" allowsDefaultBootModule="false" icon="DLCLaptop" type="4">
+  <admin type=""/>
+  <ports>21,22,25,9514</ports>
+  <portsForCrack val="1"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="6" additionalTime="1.5"/>
+  <dlink target="03aNetworkWhitelist"/>
+  <dlink target="03aNetworkVersionControl"/>
+  <dlink target="03aNetworkFileServer"/>
+  <file path="home/dev" name="FileSanitiser.cs">public static class FileSanitiser
+{
+    public static string purifyStringForDisplay(string data)
+    {
+        data = data.Replace("\t", "    ").Replace("\"", "\"").Replace("\"", "\"");
+        for (int i = 0; i LTHAN data.Length; i++) {
+            if ((data[i] LTHAN 0x0020 || data[i] > 0x007F) AND (
+                data[i] != 0x000A AND //Allow newlines
+                data[i] != 0x000B AND
+                data[i] != 0x000C AND
+                data[i] != '\n'   )){
+                //This char is outside the range of basic latin unicode chars!
+                //We wont be able to display it
+                //replace whatever's there with a space...
+                data = data.Replace(data[i], ' ');
+
+            }
+        }
+        return data;
+    }
+
+    public static void purifyVehicleFile(string path)
+    {
+        string data = Utils.readEntireFile(path);
+        data = data.Replace('\t', '#');
+        data = data.Replace("\r", "");
+        for (int i = 0; i LTHAN data.Length; i++) {
+            if (!GuiData.font.Characters.Contains(data[i]) AND data[i] != '\n') {
+                data = replaceChar(data, i, '_');
+            }
+        }
+
+        Utils.writeToFile(data, "SanitisedFile.txt");
+    }
+
+    public static string replaceChar(string data, int index, char replacer)
+    {
+        return data.Substring(0, index - 1) + replacer + data.Substring(index + 1, data.Length - index - 2);
+    }
+
+    public static void purifyNameFile(string path)
+    {
+        string data = Utils.readEntireFile(path);
+        string[] split = data.Split(Utils.newlineDelim);
+        string[] d;
+        string ret = "";
+        for(int i = 0; i LTHAN split.Length;i++) {
+            d = split[i].Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            ret += d[0] + "\n";
+        }
+
+        Utils.writeToFile(ret, "SanitisedNameFile.txt");
+    }
+
+    public static void purifyLocationFile(string path)
+    {
+        string data = Utils.readEntireFile(path);
+        char[] delims = {'\t' };
+        string[] split = data.Split(Utils.newlineDelim);
+        string[] d;
+        string ret = "";
+        for (int i = 1; i LTHAN split.Length; i++) {
+            d = split[i].Split(delims, StringSplitOptions.RemoveEmptyEntries);
+            for (int j = 1; j LTHAN d.Length; j++) {
+                ret += d[j].Trim() + "#";
+            }
+            ret += "\n";
+        }
+
+        Utils.writeToFile(ret, "SanitisedLocFile.txt");
+    }
+
+}</file>
+  <file path="home/dev" name="notes.txt">implement an actual exit system, alt+f4 isn't a concrete option</file>
+</Computer>
