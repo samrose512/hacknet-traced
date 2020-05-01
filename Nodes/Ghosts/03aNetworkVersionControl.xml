@@ -6,7 +6,6 @@
   <trace time="150"/>
   <proxy time="-1"/>
   <firewall level="-1"/>
-  <WhitelistAuthenticatorDaemon Remote="03aNetworkWhitelist"/>
   <DatabaseDaemon Permissions="public" DataType="GitCommitEntry" Foldername="database" Color="255,255,255" AdminEmailAccount="simon.j@jmail.com" AdminEmailHostID="jmail" Name="Git Repository Database Logs">
     <GitCommitEntry>
       <EntryNumber>1830</EntryNumber>

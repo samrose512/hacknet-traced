@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <Computer id="03aNetworkFileServer" name="Simon File Server" ip="47.8.129.30" security="3" allowsDefaultBootModule="true" type="4">
-  <admin type="basic"/>
+  <adminPass pass="u5hg431ozb"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="3"/>
   <trace time="100"/>

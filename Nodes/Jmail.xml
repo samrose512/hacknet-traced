@@ -9,5 +9,15 @@
   <proxy time="1.25"/>
   <firewall level="6" additionalTime="0.25"/>
   <mailServer name="Jmail Email Server" color="255,0,0" generateJunk="false">
+
+    <email recipient="simon.j" sender="david.m" subject="New password">
+Hey Simon,
+
+I've reset the password to the file server for you. Security and all that.
+New password is u5hg431ozb.
+
+Thanks,
+David
+    </email>
   </mailServer>
 </Computer>
