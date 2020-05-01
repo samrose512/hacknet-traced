@@ -1,16 +1,24 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="03b" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="filedeletion" target="03bComp" file="placeholder.txt" path="home"/>
+  <goal type="clearfolder" target="03bNetworkFileServer" file="placeholder.txt" path="home"/>
 </goals>
+<missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
 <nextMission IsSilent="false">NONE</nextMission>
-<posting title="03b">posting placeholder</posting>
+<posting title="Insert Coin">Break into a game server and borrow information.</posting>
   <email>
-    <sender>Test</sender>
-    <subject>Test</subject>
-    <body>Test</body>
+    <sender>Insert Coin</sender>
+    <subject>Insert Coin</subject>
+    <body>#PLAYERNAME#,
+This is more of a personal request from UniteSystem, but we should all help each other, right?
+He wants to cause some trouble to a game company that have made some... offensive remarks towards a group of individuals.
+He doesn't want to forgive this, and wants you to delete some of their WIP game files. He left you a message by the way:
+"Destroy the shitshow that is Team of Superstars, it's been delayed and delayed. I'm sick of the fucking thing so let's make sure it never releases."
+
+Tread carefully #PLAYERNAME#, the game company may have security policies that are a lot different than what you've been dealing with so far.
+    </body>
     <attachments>
-      <link comp="03bComp"/>
+      <link comp="03bNetworkWebServer"/>
     </attachments>
   </email>
 </mission>
