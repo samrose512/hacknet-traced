@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03aNetworkSimonLaptop" name="Simon Laptop" allowsDefaultBootModule="false" icon="DLCLaptop" type="4">
+<Computer id="03aNetworkSimonLaptop" name="Simon Laptop" ip="14.159.38.200" allowsDefaultBootModule="false" icon="DLCLaptop" type="4">
   <admin type=""/>
   <ports>21,22,25,9514</ports>
   <portsForCrack val="1"/>

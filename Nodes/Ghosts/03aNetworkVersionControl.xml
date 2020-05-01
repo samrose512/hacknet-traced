@@ -8,4 +8,35 @@
   <firewall level="-1"/>
   <dlink target="03aNetworkSimonLaptop"/>
   <dlink target="03aNetworkWhitelist"/>
-  <DatabaseDaemon 
+  <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="255,255,255" AdminEmailAccount="simon.j@jmail.com" AdminEmailHostID="jmail" Name="Git Repository Database Logs">
+    <GitCommitEntry>
+      <EntryNumber>1830</EntryNumber>
+      <ChangedFiles>
+        <String>Makefile</String>
+      </ChangedFiles>
+      <Message>Fixed Makefile not building on some Linux distros</Message>
+      <UserName>S.Jarrett</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+    <GitCommitEntry>
+      <EntryNumber>2056</EntryNumber>
+      <ChangedFiles>
+        <String>README.md</String>
+        <String>Makefile</String>
+        <String>main.c</String>
+      </ChangedFiles>
+      <Message>REMOTE COMMIT: Quick fixes before going on holiday break</Message>
+      <UserName>S.Jarrett</UserName>
+      <SourceIP>14.159.38.200</SourceIP>
+    </GitCommitEntry>
+    <GitCommitEntry>
+      <EntryNumber>2876</EntryNumber>
+      <ChangedFiles>
+        <String>README.md</String>
+      </ChangedFiles>
+      <Message>Edited README.md for better clarity</Message>
+      <UserName>S.Jarrett</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+  </DatabaseDaemon>
+</Computer>
