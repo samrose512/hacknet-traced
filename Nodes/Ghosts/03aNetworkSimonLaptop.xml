@@ -1,13 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03aNetworkSimonLaptop" name="Simon Laptop" ip="14.159.38.200" allowsDefaultBootModule="false" icon="DLCLaptop" type="4">
-  <admin type=""/>
-  <ports>21,22,25,9514</ports>
+<Computer id="03aNetworkSimonLaptop" name="Simon Laptop" allowsDefaultBootModule="false" icon="DLCLaptop" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,9418</ports>
   <portsForCrack val="1"/>
   <trace time="-1"/>
   <proxy time="-1"/>
   <firewall level="6" additionalTime="1.5"/>
   <dlink target="03aNetworkWhitelist"/>
   <dlink target="03aNetworkVersionControl"/>
+  <WhitelistAuthenticatorDaemon Remote="03aNetworkWhitelist"/>
   <file path="home/dev" name="FileSanitiser.cs">public static class FileSanitiser
 {
     public static string purifyStringForDisplay(string data)
@@ -82,4 +83,13 @@
 
 }</file>
   <file path="home/dev" name="notes.txt">implement an actual exit system, alt+f4 isn't a concrete option</file>
+  <file path="home" name="email.txt">Dad,
+I know you aren't the best with computers but if you follow the guide I printed out for you then I'm certain you'll be fine.
+Inside this text document is my email address' details. Please check them at least once a day if you can.
+
+Thanks,
+Simon
+
+Email address: simon.j@jmail.com
+Email password: ashley</file>
 </Computer>

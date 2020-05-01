@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03aNetworkWhitelist" name="Simon Whitelist" allowsDefaultBootModule="true" icon="Psylance" type="4">
+  <admin type="fast"/>
+  <ports>21,22,80,443,1433</ports>
+  <portsForCrack val="2"/>
+  <trace time="75"/>
+  <proxy time="1"/>
+  <firewall level="-1"/>
+  <dlink target="03aNetworkEntrance"/>
+  <dlink target="03aNetworkFileServer"/>
+  <dlink target="03aNetworkVersionControl"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+  <file path="Whitelist" name="list.txt">47.8.129.30
+47.8.129.50</file>
+</Computer>

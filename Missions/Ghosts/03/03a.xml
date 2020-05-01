@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="03a" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="filedownload" target="03aNetworkFileServer" file="KernelUpgradeSource_v1.04_Unreleased.tar.gz" path="home"/>
-  <goal type="fileupload" target="playerComp" file="KernelUpgradeSource_v1.04_Unreleased.tar.gz" path="home" destTarget="ghostsAssets" destPath="home"/>
+  <goal type="filedownload" target="03aNetworkFileServer" file="KernelSource_v1.04_Unreleased.tar.gz" path="home"/>
+  <goal type="fileupload" target="playerComp" file="KernelSource_v1.04_Unreleased.tar.gz" path="home" destTarget="ghostsAssets" destPath="home"/>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
 <posting title="Kernel Mustard">Secure unreleased source code to satisfy our curiosity.</posting>

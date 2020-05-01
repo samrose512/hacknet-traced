@@ -1,14 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03aNetworkVersionControl" name="Version Control #228922" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+<Computer id="03aNetworkVersionControl" name="Version Control #228922" ip="47.8.129.50" allowsDefaultBootModule="true" icon="DLCServer" type="4">
   <admin type="fast"/>
   <ports>21,22,80,443,1433,9418</ports>
   <portsForCrack val="3"/>
   <trace time="150"/>
   <proxy time="-1"/>
   <firewall level="-1"/>
-  <dlink target="03aNetworkSimonLaptop"/>
-  <dlink target="03aNetworkWhitelist"/>
-  <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="255,255,255" AdminEmailAccount="simon.j@jmail.com" AdminEmailHostID="jmail" Name="Git Repository Database Logs">
+  <WhitelistAuthenticatorDaemon Remote="03aNetworkWhitelist"/>
+  <DatabaseDaemon Permissions="public" DataType="GitCommitEntry" Foldername="database" Color="255,255,255" AdminEmailAccount="simon.j@jmail.com" AdminEmailHostID="jmail" Name="Git Repository Database Logs">
     <GitCommitEntry>
       <EntryNumber>1830</EntryNumber>
       <ChangedFiles>

@@ -2,14 +2,14 @@
 <Computer id="03aNetworkFileServer" name="Simon File Server" ip="47.8.129.30" security="3" allowsDefaultBootModule="true" type="4">
   <admin type="basic"/>
   <ports>21,22,25,80</ports>
-  <portsForCrack val="1"/>
+  <portsForCrack val="3"/>
   <trace time="100"/>
   <proxy time="1"/>
   <firewall level="-1"/>
   <dlink target="03aNetworkEntrance"/>
   <dlink target="03aNetworkWhitelist"/>
   <dlink target="03aNetworkVersionControl"/>
-  <dlink target="03aNetworkSimonLaptop"/>
+  <WhitelistAuthenticatorDaemon Remote="03aNetworkWhitelist"/>
   <CustomConnectDisplayDaemon/>
   <file path="home" name="KernelSource_v1.00.tar.gz">#BINARY##BINARY##BINARY##BINARY#</file>
   <file path="home" name="KernelSource_v1.01.tar.gz">#BINARY##BINARY##BINARY##BINARY##BINARYSMALL#</file>

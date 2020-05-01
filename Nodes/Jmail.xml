@@ -6,7 +6,7 @@
   <ports>25,80,443,1433</ports>
   <portsForCrack val="4"/>
   <trace time="200"/>
-  <proxy time="1.25/>
+  <proxy time="1.25"/>
   <firewall level="6" additionalTime="0.25"/>
   <mailServer name="Jmail Email Server" color="255,0,0" generateJunk="false">
   </mailServer>
