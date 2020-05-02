@@ -1,11 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03bComp" name="03b Node" security="2" allowsDefaultBootModule="true" type="4">
+<Computer id="03bNetworkWebServer" name="_ Web Server" security="2" allowsDefaultBootModule="true" type="4">
   <admin type="basic"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="1"/>
   <trace time="100"/>
   <proxy time="1"/>
   <firewall level="-1"/>
+  <dlink target="03bNetworkSecurityServer"/>
   <CustomConnectDisplayDaemon/>
-  <file path="home" name="placeholder.txt">placeholder text file for mission at Missions/Ghosts/03/03b.xml</file>
+  <addWebServer name="Website" url="Web/03aNetworkWebServer/index.html"/>
 </Computer>
