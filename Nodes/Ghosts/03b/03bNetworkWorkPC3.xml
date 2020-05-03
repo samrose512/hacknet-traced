@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkWorkPC3" name="Unisoft Work PC 3" security="2" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>21,80,443,9418</ports>
+  <portsForCrack val="2"/>
+  <trace time="-1"/>
+  <proxy time="0.5"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <CustomConnectDisplayDaemon/>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="home" name="decypher_README.md"># Decypher
+
+### What is Decypher?
+Decypher is a tool included in the DEC Solutions encryption suite. It decrypts files that have been encrypted with their Encripter tool.
+
+### Where is Encripter and the other tools in the DEC Solutions encryption suite?
+All the other tools are closed-source - you cannot view the source code and edit it. We have decompiled Decypher first and made it open-source for everyone to contribute to.
+The other tools in the encryption suite will be made open-source in due time, just give us a few weeks!
+
+### Other information
+This project is licensed under the MIT License, which can be found at the LICENSE file or [here](https://opensource.org/licenses/mit)</file>
+</Computer>

@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03bNetworkWebServer" name="_ Web Server" security="2" allowsDefaultBootModule="true" type="4">
+<Computer id="03bNetworkWebServer" name="Unisoft Web Server" security="2" allowsDefaultBootModule="true" type="4">
   <admin type="basic"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="1"/>
@@ -8,5 +8,5 @@
   <firewall level="-1"/>
   <dlink target="03bNetworkSecurityServer"/>
   <CustomConnectDisplayDaemon/>
-  <addWebServer name="Website" url="Web/03aNetworkWebServer/index.html"/>
+  <addWebServer name="Unisoft" url="Web/03aNetworkWebServer/index.html"/>
 </Computer>

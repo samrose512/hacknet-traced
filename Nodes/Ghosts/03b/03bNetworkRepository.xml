@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkRepository" name="Unisoft Repository" security="4" allowsDefaultBootModule="true" type="4">
+  <admin type="fast" resetPassword="false"/>
+  <ports>22,25,80,1433,9418</ports>
+  <portsForCrack val="2"/>
+  <trace time="50"/>
+  <proxy time="1.5"/>
+  <firewall level="-1"/>
+  <DatabaseDaemon Permissions="admin" DataType="GitCommitEntry" Foldername="database" Color="153,170,181" AdminEmailAccount="unisoft.security@jmail.com" AdminEmailHostID="jmail" Name="Unisoft Private Repository">
+    <GitCommitEntry>
+      <EntryNumber>1074</EntryNumber>
+      <ChangedFiles>
+        <String>main.cpp</String>
+        <String>resources.zip</String>
+      </ChangedFiles>
+      <

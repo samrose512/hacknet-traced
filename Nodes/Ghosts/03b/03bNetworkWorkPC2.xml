@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkWorkPC2" name="Unisoft Work PC 2" security="2" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>21,22,80,443,1433,9418</ports>
+  <portsForCrack val="9999"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <CustomConnectDisplayDaemon/>
+</Computer>

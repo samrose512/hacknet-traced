@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkWorkPC4" name="Unisoft Work PC 4" security="2" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80,9418</ports>
+  <portsForCrack val="2"/>
+  <trace time="-1"/>
+  <proxy time="0.5"/>
+  <firewall level="1" additionalTime="0.25"/>
+  <dlink target="03bNetworkRepository"/>
+  <CustomConnectDisplayDaemon/>
+  <file path="home" name="repository_details.txt">The repository is all set up to be available to you at all times.
+Please be mindful and tolerant of our repository's security settings - we don't want the public to see our upcoming work.
+
+Thanks,
+Unisoft Security</file>
+</Computer>

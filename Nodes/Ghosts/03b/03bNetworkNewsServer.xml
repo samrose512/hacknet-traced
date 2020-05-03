@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkNewsServer" name="Unisoft News Server" ip="129.86.147.31" security="3" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80,1433</ports>
+  <portsForCrack val="1"/>
+  <trace time="-1"/>
+  <proxy time="1"/>
+  <firewall level="-1"/>
+  <variableMissionListingServer name="Unisoft News Server" iconPath="UnisoftLogo.png" articleFolderPath="Docs/UnisoftNewsServer" color="153,170,181" assigner="false" public="true" title="Unisoft News Server"/>
+  <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+</Computer>

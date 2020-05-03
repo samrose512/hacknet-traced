@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="03bNetworkSecurityServer" name="_ Security Server" security="4" ip="" allowsDefaultBootModule="true" type="4">
+<Computer id="03bNetworkSecurityServer" name="Unisoft Security Server" security="4" allowsDefaultBootModule="true" type="4">
   <admin type="fast"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="2"/>
@@ -11,17 +11,17 @@
   <dlink target="03bNetworkWorkPC3"/>
   <dlink target="03bNetworkWorkPC4"/>
   <dlink target="03bNetworkWorkPC5"/>
-  <file path="home" name="">A reminder to our security staff:
+  <file path="home" name="security_reminder.txt">A reminder to our security staff:
 
 We respect your ongoing efforts to keep our company safe and secure.
 A part of this is an email password rotation every few months.
 Here is the new password for the security email address.
 
-Email: _.security@jmail.com
+Email: unisoft.security@jmail.com
 Password: XIHFI8A1
 
 Please ensure that you keep this information secure and only to members of the security team or people with higher security clearance than you.
 
 Thanks,
-Mgmt</file>
+Unisoft Management</file>
 </Computer>
