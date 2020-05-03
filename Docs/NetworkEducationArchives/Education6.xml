@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Active">
+In response to the increasingly hostile and active world of computer security and hacking, new digital security suites will generally include some method of tracking the location of any "hostile" activity taken against said server.
+
+This is naturally an imperfect science, so there are 2 generally recognized forms of traces:
+
+This article describes Active Traces.
+
+2: Active Traces
+----------------
+An active trace is a tracking effort undertaken by an individual working against either a currently active connection or, more commonly, logs left on a server by a careless hacker.
+An active trace is un-trackable and is generally done by attempting to breach security on nodes used in the routing path and observing the connection route logs.
+An active trace can be prevented by wiping away a chain in the connection link such at the pursuer has nothing to follow, and as such it is recommended that if an active trace is to be mounted against an assailant, it is done as soon as possible.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

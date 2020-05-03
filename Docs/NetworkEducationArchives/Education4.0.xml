@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Server Quick Guide">
+Proxy servers function as a buffering layer between a target computer and a connecting counterpart that filters, caches and monitors incoming traffic to both optimize web performance for repeated queries, and prevent some kinds of attacks.
+
+The most well-recognized flaw in proxy servers is their upper memory limit - which reached will force them to allow unchecked traffic to pass through.
+
+To exploit this, hackers and testers will often run Shells on other computers that an attacker has access to (Often using the built in "shell" program), then, with a collection of shells on servant machines, will connect to a target computer, and use the shells "overload" functionality to flood the target's proxy server with junk data, allowing other, potentially harmful traffic through.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

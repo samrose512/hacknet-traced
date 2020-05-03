@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03cNetwork3" name="Server Puzzle Node 3" security="0" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="2"/>
+  <trace time="75"/>
+  <proxy time="1.5"/>
+  <firewall level="-1"/>
+  <file path="home" name="3.txt">xx.x1x.x.xx5</file>
+</Computer>

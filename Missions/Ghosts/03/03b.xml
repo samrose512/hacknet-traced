@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="03b" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="clearfolder" target="03bNetworkFileServer" file="placeholder.txt" path="home"/>
+  <goal type="clearfolder" target="03bNetworkFileServer" path="home/TeamOfSuperstars"/>
 </goals>
 <missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
 <nextMission IsSilent="false">NONE</nextMission>

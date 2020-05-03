@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe Files and Remote Execution">
+The exe command on modern terminals executes a file residing on the local machine of the running user, targeting that program at the machine the local user is connected to.
+
+Effectively the command acts as a semantic shortcut, and prevents the need for the IP address of the connected machine being added as an argument for any run command. This also allows for multiple programs to send traffic over the same socket, increasing network efficiency at an OS level.
+Of course, many exe files are not written to have any function over a network, and in this case, the program will ignore the cross-network socket available to it and simply perform it's function locally.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

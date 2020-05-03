@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewall Analysis and Solutions">
+Firewalls have been around for a very long time in computer security, most often serving to prevent automated foreign network traffic rather than secure against dedicated hackers.
+Modern firewalls however can be configured to prevent *all* security-critical traffic unless it is prefixed by a firewall solution (often referred to as a password to end-users - though there is a distinct difference between the two).
+
+In this situation, the firewall solution will need to be provided before an unsyndicated login attempt can be attempted - effectively meaning that any known password cracking software will be useless while a firewall is active.
+
+Firewall complexity can be examined with the "analyze" command - running the analyze command multiple times will automatically detect patterns in the response data headers and will eliminate characters it can guarantee are not a part of the correct firewall solution.
+Once a potential solution is found, the command "solve [FIREWALL_SOLUTION]" can be used to attempt to syndicate
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

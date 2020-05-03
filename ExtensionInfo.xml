@@ -2,7 +2,7 @@
   <Language>en-us</Language>
   <Name>Hacknet: Traced</Name>
   <AllowSaves>true</AllowSaves>
-  <StartingVisibleNodes>oldIRC</StartingVisibleNodes>
+  <StartingVisibleNodes>oldIRC,networkEducationArchives</StartingVisibleNodes>
   <StartingMission>Missions/StartingMission.xml</StartingMission>
   <StartingActions>Actions/NewGameActions.xml</StartingActions>
   <Description>Created for Hackerjam 2.</Description>

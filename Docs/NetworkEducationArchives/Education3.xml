@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Shells are compact, low memory remote processes running on a separate machine that can be controlled locally from any connection.
+These incredibly convenient processes are useful for many tasks, though what they are capable of is determined by the type of shell being run.
+Common functions across networks include:
+
+Overload:
+Designed to test networks and proxy servers, this functionality floods the target machine with junk network traffic from the node running the shell, filling up proxy server memory and soaking cpu time.
+
+Trap:
+A shell running this mode will notify the running user when a foreign user connects to the machine running the shell, and allow an emergency forkbomb flood to be executed on all other users connected to it remotely.
+This can be incredibly useful for maintaining the security of a remote networked computer while doing other work.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

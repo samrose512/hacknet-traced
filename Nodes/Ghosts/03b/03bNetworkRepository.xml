@@ -13,4 +13,19 @@
         <String>main.cpp</String>
         <String>resources.zip</String>
       </ChangedFiles>
-      <
+      <Message>REMOTE COMMIT: Added some more resources for Team of Superstars</Message>
+      <UserName>S. Yang</UserName>
+      <SourceIP>53.109.43.238</SourceIP>
+    </GitCommitEntry>
+    <GitCommitEntry>
+      <EntryNumber>2556</EntryNumber>
+      <ChangedFiles>
+        <String>main.cpp</String>
+        <String>_CommonRedist/DirectY/Jun2010/dywebsetup.exe</String>
+      </ChangedFiles>
+      <Message>Included support for the newer DirectY version</Message>
+      <UserName>A. Berker</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+  </DatabaseDaemon>
+</Computer>

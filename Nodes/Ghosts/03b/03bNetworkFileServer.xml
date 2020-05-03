@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03bNetworkFileServer" name="Unisoft File Server" security="DLCServer" ip="53.109.43.238" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>21,22,80,9418</ports>
+  <portsForCrack val="2"/>
+  <trace time="75"/>
+  <proxy time="1.25"/>
+  <firewall level="5" additionalTime="0.25"/>
+  <file path="home/TeamOfSuperstars" name="Source.zip">#BINARY##BINARY#</file>
+  <file path="home/TeamOfSuperstars" name="note.txt">Don't let the public know that the game won't release for another three years.</file>
+  <file path="home/HackCatsEmpire" name="Source.zip">#BINARY##BINARY#</file>
+  <file path="home/HackCatsEmpire" name="GreatGamesStore.dll">#BINARYSMALL#</file>
+</Computer>

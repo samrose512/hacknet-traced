@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Servers - Advanced">
+Proxy servers are essentially a secondary computer that you connect to a target through, which filters and caches network traffic to provide security and increase web performance on highly-requested information.
+
+Proxies are configured by default to ward off traffic that might be considered a network threat (such at FTP Flooding), at the cost of needing to whitelist desirable traffic (such as youtube video streaming traffic).
+This means that while they can be inconvenient for some users while they are being correctly configured, they can entirely prevent the execution of programs that could compromise a port or security service.
+
+The most well-recognized flaw in proxy servers is their upper memory limit - which reached will force them to either entirely shut down the network they are connected do (a feature which is hardly ever utilized) or allow unchecked traffic to pass through.
+Because of this, increasing network security budgets have led to more robust proxy servers with significantly more memory, making the process of overloading one a long and daunting task, nigh impossible with a single machine.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

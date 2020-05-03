@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="unisoftNewsArticle1">
+<goals>
+</goals>
+<nextMission>NONE</nextMission>
+  <posting title="Current progress">Hello all,
+We have some exciting news to share with you.
+
+From now on we will be partnering with bigBuild to bring you the latest and greatest games.
+We hope you will bear with us while we communicate with them a little more.
+
+For this time, we shall be delaying all of our projects until further notice.
+Keep on this page for new updates!
+
+Sarah Yang
+Unisoft CEO and Programmer</posting>
+  <email>
+    <sender>Error</sender>
+    <subject>Error</subject>
+    <body>If you are seeing this then there has been an error in the Hacknet extension. Please contact Samaritan about this.</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

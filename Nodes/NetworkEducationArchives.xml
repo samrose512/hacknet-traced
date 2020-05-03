@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="networkEducationArchives" name="Network Education Archives" security="3" allowsDefaultBootModule="true" type="4">
+  <admin type="none"/>
+  <ports>80</ports>
+  <portsForCrack val="5"/>
+  <trace time="-1"/>
+  <proxy time="2"/>
+  <firewall level="8" additionalTime="0.75"/>
+  <variableMissionListingServer name="Network Education Archives" iconPath="NetworkEducationArchivesLogo.png" articleFolderPath="Docs/NetworkEducationArchives" color="199,104,160" assigner="false" public="true" title="Network Education Archives"/>
+</Computer>

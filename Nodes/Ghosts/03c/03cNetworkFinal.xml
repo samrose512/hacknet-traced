@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="03cNetworkFinal" name="Server Puzzle Final Node" security="0" ip="50.212.7.185" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="2"/>
+  <trace time="100"/>
+  <proxy time="2"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <file path="home" name="README.txt">Your prize is waiting...</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Notes System">
+All terminal driven operating systems based on the *Nix kernel have a built in notes program (run using "notes") that can be very convenient.
+It's generally underused, relatively ram efficient and is well integrated with many mail clients and other programs (so that they can conveniently
+autofill notes for you).
+    
+Running it is as simple as using the "notes" command, notes can be manually added via UI, or using the "addNote [NOTE]" command.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

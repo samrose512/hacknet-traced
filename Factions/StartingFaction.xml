@@ -56,7 +56,16 @@
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03c.xml" TargetComp="newIRC"/>
   </Action>
   <Action ValueRequired="4">
-    <!--<AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">!ATTACHMENT:link#%#Credits Server#%#178.36.97.4</AddIRCMessage>-->
-    <AddConditionalActions Filepath="Actions/EndActions.xml" DelayHost="FAH" Delay="5.0"/>
-  </Action>
+    <AddAsset FileName="SQL_MemCorrupt.exe" FileContents="#SQL_CRACK#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="3.0">had8#!9-8139082£$)"U(j"</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="6.0">##1[0 Q2)euu*{ne}]</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">uh, Mentel?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="11.0">you okay?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="13.5">@Mentel</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="16.0">He's not responding to anything.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="18.5">This is bad.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="23.5">@#PLAYERNAME# @UniteSystem Mentel isn't responding to anything so I'm taking command.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="26.0">This is his gateway server. Go and check his network for anything strange.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="30.0">!ATTACHMENT:link#%#Mentel Gateway#%#147.29.205.13</AddIRCMessage>
+    <LoadMission MissionName="Missions/Ghosts/GhostsEnd.xml"/>
 </CustomFaction>

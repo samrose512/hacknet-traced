@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Passive">
+In response to the increasingly hostile and active world of computer security and hacking, new digital security suites will generally include some method of tracking the location of any "hostile" activity taken against said server.
+    
+This is naturally an imperfect science, so there are 2 generally recognized forms of traces, Active and Passive.
+    
+This article describes Passive Traces.
+    
+1: Passive Traces
+-----------------
+A passive trace is a computer program running on a machine that attempts to detect hostile action and mount a tracing action against it. The method of doing so varies from program to program (and consequently the time it generally takes to complete does too).
+A passive trace can in theory be prevented from completing by using a self-induced crash at the exact time that the ping arrives from the hostile server, giving it no return, such that it assumes the packet never arrived. 
+This would require OS-level integration though, and is not a known feature on any widely recognized OS, leaving this an effective tracking method for would-be assailants.
+    
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
