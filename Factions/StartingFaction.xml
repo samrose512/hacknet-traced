@@ -67,5 +67,7 @@
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="23.5">@#PLAYERNAME# @UniteSystem Mentel isn't responding to anything so I'm taking command.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="26.0">This is his gateway server. Go and check his network for anything strange.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="30.0">!ATTACHMENT:link#%#Mentel Gateway#%#147.29.205.13</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="33.5">I've also uploaded a new file to the Assets Server for you guys. I'm not sure if you have it yet, #PLAYERNAME#.</AddIRCMessage>
     <LoadMission MissionName="Missions/Ghosts/GhostsEnd.xml"/>
+  </Action>
 </CustomFaction>

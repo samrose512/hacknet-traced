@@ -1,16 +1,23 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="03c" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="filedeletion" target="03cComp" file="placeholder.txt" path="home"/>
+  <goal type="filedownload" target="03cNetworkFinal" file="SQL_MemCorrupt.exe" path="bin"/>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
-<posting title="03c">posting placeholder</posting>
+<posting title="Puzzle Box">posting placeholder</posting>
   <email>
-    <sender>Test</sender>
-    <subject>Test</subject>
-    <body>Test</body>
+    <sender>Puzzle Box</sender>
+    <subject>Puzzle Box</subject>
+    <body>Hey #PLAYERNAME#,
+This isn't a group mission as such, but rather a personal request from me.
+
+As well as being the admin of Ghosts, I also host puzzle systems. I've created a new one designed for people who want to learn pentesting.
+I'd personally like to invite you to test the box out. The objective for you is to download the special application I uploaded there as a reward for you.
+
+Thank you.
+    </body>
     <attachments>
-      <link comp="03cComp"/>
+      <link comp="03cNetwork1"/>
     </attachments>
   </email>
 </mission>

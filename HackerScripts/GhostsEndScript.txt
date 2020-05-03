@@ -1,0 +1,22 @@
+config playerComp ghostsEndHackComp 0.2 $#%#$
+connect $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+stopMusic $#%#$
+writel Hello. $#%#$
+delay 2.5 $#%#$
+writel Do not go looking for Mentel. $#%#$
+delay 0.5 $#%#$
+writel It will only get you hurt. $#%#$
+clearTerminal $#%#$
+delay 2.5 $#%#$
+writel For now I shall only show you what will happen when you cross us. $#%#$
+delay 5.0 $#%#$
+writel Goodbye. $#%#$
+delay 2.5 $#%#$
+writel It's been fun. $#%#$
+disconnect $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$

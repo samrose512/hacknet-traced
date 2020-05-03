@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghostsEnd" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedeletion" target="playerComp" file="x-server.sys" path="sys"/>
+</goals>
+<missionStart>loadConditionalActions:Actions/GhostsEndActions.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>Error</sender>
+    <subject>Error</subject>
+    <body>Error</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
