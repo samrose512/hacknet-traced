@@ -10,6 +10,6 @@
     <ShowNode DelayHost="FAH" Delay="16.5" target="playerComp"/>
     <ShowNode DelayHost="FAH" Delay="16.5" target="jmail"/>
     <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="16.5"/>
-    <!--<LoadMission MissionName="Missions/NewsSiteTakedownMission.xml"/>-->
+    <LoadMission MissionName="Missions/rid3r_Missions/NewsSiteTakedownMission.xml"/>
   </OnAdminGained>
 </ConditionalActions>

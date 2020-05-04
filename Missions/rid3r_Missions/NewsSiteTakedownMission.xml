@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="newsSiteTakedownMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="clearfolder" target="newsSiteTakedownComp" path="MsgBoard/listings"/>
+  <goal type="filedeletion" target="newsSiteTakedownComp" path="MsgBoard" name="config.sys"/>
+</goals>
+<missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
+<nextMission IsSilent="false">Missions/EndMission.xml</nextMission>
+<!--<nextMission IsSilent="false">Missions/rid3r_Missions/IncriminatingUploadMission.xml</nextMission>-->
+  <email>
+    <sender>rid3r</sender>
+    <subject>Trial</subject>
+    <body>Hello.
+Your name is #PLAYERNAME#, is it not? I would like to ask you to stay quiet about me hacking into your system, okay? Good. It's not like you have a choice anyway.
+
+You will be subjected to multiple trials that you will complete for me. It can be anything, even if it incriminates you or your friends at Ghosts.
+This is your first trial.
+
+A news site, FuzzFeed, has been posting some... fake news. It would be best to remove those files before someone is harmed by following them.
+Remove all news articles on the server and delete the config.sys file. Reply when you are done.
+
+-rid3r
+    </body>
+    <attachments>
+      <link comp="newsSiteTakedownComp"/>
+    </attachments>
+  </email>
+</mission>
