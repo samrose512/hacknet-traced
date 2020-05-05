@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="ghostsEndHackComp" name="Ghosts End Hack Comp" security="2" allowsDefaultBootModule="false" type="4">
+  <admin type="fast" resetPassword="true"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="9999"/>
+  <trace time="25"/>
+  <proxy time="2"/>
+  <firewall level="10" additionalTime="1.0"/>
+</Computer>

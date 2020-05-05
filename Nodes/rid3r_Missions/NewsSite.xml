@@ -6,6 +6,5 @@
   <trace time="-1"/>
   <proxy time="1"/>
   <firewall level="-1"/>
-  <file path="MsgBoard" name="config.sys">#BINARY#</file>
   <variableMissionListingServer name="FuzzFeed" iconPath="NetworkEducationArchivesLogo.png" articleFolderPath="Docs/FuzzFeed" color="255,20,147" assigner="false" public="true" title="FuzzFeed"/>
 </Computer>
