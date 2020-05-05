@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="incriminatingUpload" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedownload" target="rid3rAssets" file="Evidence.dec" path="home"/>
+  <goal type="fileupload" target="playerComp" file="Evidence.dec" path="home" destTarget="policeAnonUpload" destPath="Drop/Uploads"/>
+</goals>
+<nextMission IsSilent="false">Missions/EndMission.xml</nextMission>
+<!--<nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickEmail.xml</nextMission>-->
+  <email>
+    <sender>rid3r</sender>
+    <subject>Onwards</subject>
+    <body>Well well,
+It seems you are competent after all, however with those measly little tools you have in your possession, you will never be able to break into more protected systems. Since I'm so nice, I'll give you admin access to my asset server. It includes many tools that you will need for systems such as corporate and municipal ones.
+
+Now, onto the mission at hand.
+I have a file on my asset server that you will need to download and put onto the police's anonymous upload server. It is encrypted so don't even think about decrypting it. Unfortunately for you, it includes data about yourself that puts you in a... bad position. I do not know what will happen to you after the file is read by the police, but depending on the outcome of these next few trials, I may remove that file for you. As a favour of course.
+
+Now go.
+-rid3r
+    </body>
+    <attachments>
+      <link comp="rid3rAssets"/>
+      <account comp="rid3rAssets" user="admin" pass="amphibian"/>
+      <link comp="policeAnonUpload"/>
+    </attachments>
+  </email>
+</mission>

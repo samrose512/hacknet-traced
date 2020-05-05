@@ -5,8 +5,7 @@
   <goal type="filedeletion" target="newsSiteTakedownComp" path="MsgBoard" name="config.sys"/>
 </goals>
 <missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
-<nextMission IsSilent="false">Missions/EndMission.xml</nextMission>
-<!--<nextMission IsSilent="false">Missions/rid3r_Missions/IncriminatingUploadMission.xml</nextMission>-->
+<nextMission IsSilent="false">Missions/rid3r_Missions/IncriminatingUploadMission.xml</nextMission>
   <email>
     <sender>rid3r</sender>
     <subject>Trial</subject>
