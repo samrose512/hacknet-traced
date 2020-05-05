@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="mentelGateway" name="Mentel Gateway Server" ip="147.29.205.13" allowsDefaultBootModule="false" icon="chip" type="4">
+  <admin type="fast" resetPassword="true"/>
+  <ports>21,22,25,80,1433</ports>
+  <portsForCrack val="3"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <file path="home" name="readme.txt">Pranked!</file>
+</Computer>

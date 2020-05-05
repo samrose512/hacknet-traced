@@ -4,7 +4,7 @@
   <goal type="filedownload" target="03cNetworkFinal" file="SQL_MemCorrupt.exe" path="bin"/>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
-<posting title="Puzzle Box">posting placeholder</posting>
+<posting title="Puzzle Box">Test a new puzzle.</posting>
   <email>
     <sender>Puzzle Box</sender>
     <subject>Puzzle Box</subject>

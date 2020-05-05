@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="rid3rAssets" name="rid3r Assets Server" security="1" allowsDefaultBootModule="false" type="4">
+  <adminPass pass="amphibian"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <proxy time="1.5"/>
+  <firewall level="10" additionalTime="0.25"/>
+  <encryptedFile path="home" name="Evidence.dec" extension=".docx" ip="192.168.1.1" header="Ghosts evidence" pass="divingsparrow">#BINARY#</encryptedFile>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="policeAnonUpload" name="Police Anonymous Upload Server" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="9999"/>
+  <trace time="50"/>
+  <proxy time="1"/>
+  <firewall level="8" additionalTime="0.5"/>
+  <uploadServerDaemon name="Police Anonymous Upload Server" folder="Drop" needsAuth="false" color="255,0,0"/>
+</Computer>
