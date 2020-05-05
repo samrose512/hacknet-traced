@@ -1,7 +1,7 @@
 <ConditionalActions>
   <Instantly>
     <RunFunction FunctionName="setFaction:ghostsFac"/>
-    <RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated"/>
+    <RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated,BootFailureThemeSongChange"/>
   </Instantly>
   <OnConnect target="newIRC">
     <RunFunction FunctionName="addFlags:firstIRCFlag"/>

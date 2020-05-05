@@ -3,8 +3,8 @@
 <goals>
   <goal type="filedeletion" target="playerComp" file="x-server.sys" path="sys"/>
 </goals>
-<missionStart>loadConditionalActions:Actions/GhostsEndActions.xml</missionStart>
-<nextMission IsSilent="false">NONE</nextMission>
+<missionStart suppress="false">loadConditionalActions:Actions/GhostsEndActions.xml</missionStart>
+<nextMission IsSilent="true">NONE</nextMission>
   <email>
     <sender>Error</sender>
     <subject>Error</subject>

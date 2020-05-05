@@ -8,5 +8,5 @@
   <firewall level="-1"/>
   <dlink target="03bNetworkSecurityServer"/>
   <CustomConnectDisplayDaemon/>
-  <addWebServer name="Unisoft" url="Web/03aNetworkWebServer/index.html"/>
+  <addWebServer name="Unisoft" url="Web/03bNetworkWebServer/index.html"/>
 </Computer>
