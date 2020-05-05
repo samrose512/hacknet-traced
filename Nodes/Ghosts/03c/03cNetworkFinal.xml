@@ -6,6 +6,7 @@
   <trace time="100"/>
   <proxy time="2"/>
   <firewall level="6" additionalTime="0.25"/>
+  <dlink target="03cNetwork3"/>
   <file path="home" name="README.txt">Your prize is waiting...</file>
   <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
 </Computer>

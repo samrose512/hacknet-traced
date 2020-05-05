@@ -6,6 +6,6 @@
   <trace time="-1"/>
   <proxy time="-1"/>
   <firewall level="-1"/>
-  <dlink target="03cNetworkServer2"/>
+  <dlink target="03cNetwork2"/>
   <file path="home" name="1.txt">5x.xx2.7.1xx</file>
 </Computer>
