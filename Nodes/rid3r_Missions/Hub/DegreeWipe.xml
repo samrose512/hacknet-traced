@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="wipeDegrees" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="wipedegrees" owner="Jean-Luc Stevenson"/>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="placeholder title 1">placeholder title, you have to do something to play the next mission idk</posting>
+  <email>
+    <sender>rid3r</sender>
+    <subject>placeholder title</subject>
+    <body>Wipe the degree clean, idc</body>
+    <attachments>
+      <link comp="academic"/>
+    </attachments>
+  </email>
+</mission>

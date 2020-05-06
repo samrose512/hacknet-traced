@@ -1,0 +1,10 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="setFaction:rid3r"/>
+    <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+  </Instantly>
+</ConditionalActions>

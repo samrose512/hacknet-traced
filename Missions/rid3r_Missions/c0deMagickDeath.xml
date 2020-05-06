@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="c0deMagickDeath" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<missionStart>loadConditionalActions:Actions/rid3rHubActions.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Your friend</subject>
+    <body>So.
+You've seen what happens to your friend if they poke around too far.
+Thankfully that pacemaker is a decoy. He's alive. I'd never kill a person just to make a point.
+
+I'd like to welcome you into our contract hub. Complete contracts and you can access harder ones.
+I'm also giving you access to our assets server. The tools there should help you. I made them myself. Wasn't too hard, by the way.
+
+I look forward to seeing you take some contracts.
+-rid3r
+    </body>
+    <attachments>
+      <link comp="rid3rHub"/>
+      <link comp="rid3rAssets"/>
+    </attachments>
+  </email>
+</mission>

@@ -2,6 +2,7 @@
 <mission id="c0deMagickEmail" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
   <goal type="hasflags" target="JL_Stevenson:DEAD"/>
+  <goal type="filedownload" target="c0deMagickPacemaker" file="readme_ghosts.txt" path="home"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/c0deMagickActions.xml</missionStart>
 <nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickDeath.xml</nextMission>

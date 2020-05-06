@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <OnConnect target="c0deMagickPacemaker">
+    <RunFunction FunctionName="addFlags:JL_Stevenson:DEAD"/>
+    <CrashComputer TargetComp="c0deMagickPacemaker" CrashSource="c0deMagickPacemaker" DelayHost="FAH" Delay="5.0"/>
+  </OnConnect>
+</ConditionalActions>

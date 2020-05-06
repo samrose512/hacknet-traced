@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <Person id="JL_Stevenson" handle="c0deMagick" firstName="Jean-Luc" lastName="Stevenson" isMale="true">
-  <Birthplace name="Toulouse"/>
+  <Birthplace name="Toulouse, France"/>
   <Degrees>
     <Degree uni="Universite Perpignan Via Domitia" gpa="5.4">Masters in Computer Science</Degree>
     <Degree uni="Universite Perpignan Via Domitia" gpa="5.6">Masters in Mathematics</Degree>
   </Degrees>
   <Medical>
-    <Blood>A</Blood>
+    <Blood>O</Blood>
     <Height>175</Height>
     <Allergies>None</Allergies>
     <Perscription>None</Perscription>
@@ -14,5 +14,5 @@
 16.180.232.45</Notes>
   </Medical>
   <DOB>14/06/1998 14:25:00</DOB>
-  <Notes>Holy fucc I made Arkhist without realising it</Notes>
+  <Notes>math boi</Notes>
 </Person>

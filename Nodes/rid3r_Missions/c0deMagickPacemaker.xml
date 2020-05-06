@@ -6,5 +6,17 @@
   <trace time="-1"/>
   <proxy time="-1"/>
   <firewall level="-1"/>
+  <file path="home" name="readme_ghosts.txt">Hey everyone.
+If you're reading this, I'm probably dead. Sorry.
+
+I'd just like to talk about the projects we've been doing.
+I'm uncertain whether or not the main plan that Ghosts have been working on is a good idea. What is it going to do to benefit us, other than cause destruction and chaos?
+That's why in the last message you'll ever see from me is this:
+
+I am leaving Ghosts. Forever.
+I will not stand for our mantra. It's making me feel sick now just thinking about what we've done and what it has done to innocent people.
+
+For others reading this, I hope you're being careful.
+Very careful.</file>
   <HeartMonitor patient="JL_Stevenson"/>
 </Computer>
