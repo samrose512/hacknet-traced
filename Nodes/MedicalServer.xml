@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="medical" name="Universal Medical" security="5" ip="208.93.170.15" allowsDefaultBootModule="true" type="4">
+  <adminPass pass="codeine"/>
+  <admin type="none"/>
+  <ports>21,25,80,1433,104</ports>
+  <portsForCrack val="4"/>
+  <trace time="150"/>
+  <proxy time="2"/>
+  <firewall level="8" solution="MEDICATE"/>
+  <MedicalDatabase/>
+</Computer>

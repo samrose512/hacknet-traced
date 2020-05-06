@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="c0deMagickEmail" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="hasflags" target="JL_Stevenson:DEAD"/>
+</goals>
+<missionStart>loadConditionalActions:Actions/c0deMagickActions.xml</missionStart>
+<nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickDeath.xml</nextMission>
+  <email>
+    <sender>c0deMagick</sender>
+    <subject>Hang in there</subject>
+    <body>#PLAYERNAME#,
+I can't talk for long since I'm fighting off a lot of hack attempts against me and I can't afford even one of those attempts to succeed. Hopefully you won't find out why.
+
+We're coming to get you, so hang in ther
+    </body>
+    <attachments>
+      <link comp="c0deMagickPacemaker"/>
+    </attachments>
+  </email>
+</mission>

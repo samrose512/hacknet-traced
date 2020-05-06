@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="academic" name="International Academic Database" security="5" ip="129.67.0.11" allowsDefaultBootModule="true" type="4">
+  <adminPass pass="techtonic"/>
+  <admin type="fast" resetPassword="false"/>
+  <ports>21,25,80,1433</ports>
+  <portsForCrack val="4"/>
+  <trace time="195"/>
+  <proxy time="-1"/>
+  <firewall level="8" solution="ACADEMIC"/>
+  <file path="academic_data" name="admin.txt">Reminder: If you are logged out for maintenance, the password for this server is "techtonic" for the current security cycle.</file>
+  <academicDatabase/>
+</Computer>

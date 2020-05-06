@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="ispComp" name="ISP Management Server" ip="68.144.93.18" security="5" type="4">
+  <adminPass pass="tracert"/>
+  <ports>22,80,1433</ports>
+  <portsForCrack val="3"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <ispSystem/>
+</Computer>
