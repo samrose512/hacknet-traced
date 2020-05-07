@@ -1,0 +1,32 @@
+config playerComp newIRC 0.5 $#%#$
+connect $#%#$
+writel :: INCOMING CONNECTION :: $#%#$
+writel :: TTY INTERFACE OPEN :: $#%#$
+writel :: ESTABLISHING DATA INTERFACE :: $#%#$
+writel :: DECRYPTING INCOMING DATA :: $#%#$
+delay 5 $#%#$
+writel $#%#$
+writel :: DATA DECRYPTION COMPLETE :: $#%#$
+writel :: MESSAGE FOLLOWS :: $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel Hey, it's c0deMagick. What's happening over there? $#%#$
+writel Let me launch some diagnostic utilities on your system, I hope you don't mind. $#%#$
+writel Running now... $#%#$
+delay 5 $#%#$
+writel It seems as though you're missing an x-server file. $#%#$
+writel Hang on, I'll give you the IP of an x-server... server. $#%#$
+delay 5 $#%#$
+makeFile home x-server_ip.txt In case you forget the IP address or lose it somehow, it's 146.65.108.27. $#%#$
+writel Here. 146.65.108.27. $#%#$
+writel I've also uploaded it to your system in /home, in case you ever forget the IP or lose it somehow. $#%#$
+writel Security of the server appears to be very weak, so I'd expect you to not have any problems getting into it. $#%#$
+writel I'll see you on the other side. $#%#$
+delay 2.5 $#%#$
+flash $#%#$
+flash $#%#$
+disconnect $#%#$
+writel :: CONNECTION LOST :: $#%#$
+writel :: HANDING BACK CONTROL TO USER :: $#%#$
+writel :: DONE :: $#%#$

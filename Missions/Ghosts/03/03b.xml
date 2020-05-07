@@ -3,7 +3,6 @@
 <goals>
   <goal type="clearfolder" target="03bNetworkFileServer" path="home/TeamOfSuperstars"/>
 </goals>
-<missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
 <nextMission IsSilent="false">NONE</nextMission>
 <posting title="Insert Coin">Break into a game server and borrow information.</posting>
   <email>

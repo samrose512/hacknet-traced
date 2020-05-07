@@ -4,7 +4,7 @@
   <goal type="clearfolder" target="newsSiteTakedownComp" path="MsgBoard/listings"/>
   <goal type="filedeletion" target="newsSiteTakedownComp" path="MsgBoard" name="config.sys"/>
 </goals>
-<missionStart>playCustomSong:Music/MoonlightSonata.ogg</missionStart>
+<missionStart>loadConditionalActions:Actions/AfterHackActions.xml</missionStart>
 <nextMission IsSilent="false">Missions/rid3r_Missions/IncriminatingUploadMission.xml</nextMission>
   <email>
     <sender>rid3r</sender>
