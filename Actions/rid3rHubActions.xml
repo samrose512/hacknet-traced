@@ -1,6 +1,6 @@
 <ConditionalActions>
   <Instantly>
-    <RunFunction FunctionName="setFaction:rid3r"/>
+    <RunFunction FunctionName="setFaction:rid3rFac"/>
     <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
     <AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
     <AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>

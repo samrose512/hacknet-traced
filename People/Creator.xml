@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="creator" handle="Samaritan" firstName="Malachy" lastName="Allen" isMale="true">
+<Person id="creator" handle="Samaritan" firstName="Malachy" lastName="Allen" isMale="true">
   <Birthplace name="London, England"/>
   <Degrees>
     <Degree uni="University of Suffolk" gpa="8.4">Masters in Computing</Degree>
@@ -13,4 +13,4 @@
   </Medical>
   <DOB>27/08/2004 10:55:00</DOB>
   <Notes>Come on, Matt did it. It's only right that I do it.</Notes>
-</Computer>
+</Person>

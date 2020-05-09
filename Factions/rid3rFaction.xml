@@ -1,0 +1,5 @@
+<CustomFaction name="rid3r" id="rid3rFac" playerVal="0">
+  <Action ValueRequired="1">
+    <AddAsset FileName="test.txt" FileContents="this is a test document bla bla bla 12341234" TargetComp="playerComp" TargetFolderpath="home"/>
+  </Action>
+</CustomFaction>

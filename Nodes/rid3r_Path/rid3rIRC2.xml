@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="rid3rIRC2" name="rid3r IRC (1)" security="4" allowsDefaultBootModule="true" type="4">
+  <admin type="fast"/>
+  <ports>21,22,80,1433</ports>
+  <portsForCrack val="4"/>
+  <trace time="50"/>
+  <proxy time="2"/>
+  <firewall level="8" additionalTime="0.5"/>
+  <IRCDaemon themeColor="175,238,238" name="rid3r IRC" needsLogin="false">
+    <user name="rid3r" color="65,105,225"/>
+  </IRCDaemon>
+</Computer>

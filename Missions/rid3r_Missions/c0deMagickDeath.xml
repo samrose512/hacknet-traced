@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="c0deMagickDeath" activeCheck="true" shouldIgnoreSenderVerification="false">
+<mission id="c0deMagickDeath" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
 </goals>
 <missionStart>loadConditionalActions:Actions/rid3rHubActions.xml</missionStart>

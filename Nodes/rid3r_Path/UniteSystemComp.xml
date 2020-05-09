@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="UniteSystemComp" name="UniteSystem Battlestation" allowsDefaultBootModule="true" icon="DLCPC2" type="4">
+  <admin type="none"/>
+  <ports>22,80,443,554,6881</ports>
+  <portsForCrack val="3"/>
+  <trace time="100"/>
+  <proxy time="1.25"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <CustomConnectDisplayDaemon/>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+</Computer>
