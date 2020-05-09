@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network03" name="Kellis Biotech Web Server" security="4" allowsDefaultBootModule="true" type="4">
+  <admin type="fast"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=20,22=2220,25=3535,80=8008</portRemap>
+  <portsForCrack val="2"/>
+  <trace time="75"/>
+  <proxy time="1.5"/>
+  <firewall level="-1"/>
+  <addWebServer name="Kellis Biotech" url="Web/KellisBiotech/index.html"/>
+</Computer>

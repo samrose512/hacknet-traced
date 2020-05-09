@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network02" name="Kellis Biotech Authentication" security="4" allowsDefaultBootModule="false" type="4">
+  <admin type="fast"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=6622,22=2220,25=587,80=8080</portRemap>
+  <portsForCrack val="3"/>
+  <trace time="100"/>
+  <proxy time="1.5"/>
+  <firewall level="-1"/>
+  <dlink target="kbt_network03"/>
+  <dlink target="kbt_network04"/>
+  <dlink target="kbt_network05"/>
+  <dlink target="kbt_network06"/>
+  <LogoDaemon Name="Kellis Biotech Authentication" ShowsTitle="false" TextColor="51, 0, 51, 200" LogoImagePath="KellisLogo.png">
+Kellis Biotech
+:: AUTHENTICATION ::
+  </LogoDaemon>
+</Computer>

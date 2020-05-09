@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network01" name="Kellis Biotech Gateway" security="3" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=20,22=2220,25=3535,80=8008</portRemap>
+  <portsForCrack val="2"/>
+  <trace time="100"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <dlink target="kbt_network02"/>
+  <file path="home" name="project_work.txt">The Kellis Biotech Port Tester program is nearing completion. The files are stored on a separate server, protected by multiple firewalls.
+The security solution used is for projection from hackers. Multiple proxies and firewalls will be installed and the new EnSec protocols will be used for port remapping.</file>
+</Computer>
