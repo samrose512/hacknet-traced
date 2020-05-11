@@ -10,7 +10,7 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   <HasIntroStartup>false</HasIntroStartup>
   <StartingTheme>Themes/RainTheme.xml</StartingTheme>
-  <IntroStartupSong>Music/MrMegaman.ogg</IntroStartupSong>
+  <IntroStartupSong>Music/music3.ogg</IntroStartupSong>
   <SequencerTargetID>sequencerNode</SequencerTargetID>
   <SequencerSpinUpTime>14.5</SequencerSpinUpTime>
   <SequencerFlagRequiredForStart>sequencerFlag</SequencerFlagRequiredForStart>
