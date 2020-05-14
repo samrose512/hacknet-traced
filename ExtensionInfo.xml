@@ -7,6 +7,7 @@
   <StartingActions>Actions/NewGameActions.xml</StartingActions>
   <Description>Created for Hackerjam 2.</Description>
   <Faction>Factions/StartingFaction.xml</Faction>
+  <Faction>Factions/rid3rFaction.xml</Faction>
   <StartsWithTutorial>False</StartsWithTutorial>
   <HasIntroStartup>false</HasIntroStartup>
   <StartingTheme>Themes/RainTheme.xml</StartingTheme>

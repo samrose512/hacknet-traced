@@ -6,7 +6,7 @@
   <portsForCrack val="3"/>
   <trace time="75"/>
   <proxy time="1.75"/>
-  <firewall level="" solution="" additionalTime="1.0"/>
+  <firewall level="12" solution="SOMEPASSWORD" additionalTime="1.0"/>
   <dlink target="kbt_network08"/>
   <WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
 </Computer>
