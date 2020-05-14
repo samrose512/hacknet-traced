@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network08" name="Kellis Biotech Production Server" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+  <admin type="fast"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="3"/>
+  <trace time="50"/>
+  <proxy time="1"/>
+  <firewall level="4" additionalTime="0.0"/>
+  <encryptedFile path="bin" name="KBT_PortTest.dec" extension=".exe" ip="192.168.1.1" header="Kellis Biotech Pacemaker Port Stresser v0.8" pass="">#MEDICAL_PROGRAM#</encryptedFile>
+  <file path="home/Production" name="KellisMediaPack.zip">#BINARY##BINARY#</file>
+  <file path="home/Production" name="PacemakerPlans.pdf">#BINARY#</file>
+  <WhitelistAuthenticatorDaemon Remote="kbt_network07"/>
+</Computer>

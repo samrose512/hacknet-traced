@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="finaleDecisionAlt" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="clearfolder" target="uniteSystemFinaleDecisionComp" path="sys"/>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>A decision</subject>
+    <body>Well.
+There you go.
+A decision.
+
+Take your pick.
+    </body>
+    <attachments>
+      <link comp="uniteSystemFinaleDecisionComp"/>
+      <link comp="rid3rFinaleDecisionComp"/>
+    </attachments>
+  </email>
+</mission>

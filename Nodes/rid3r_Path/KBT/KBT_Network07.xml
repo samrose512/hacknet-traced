@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network07" name="Kellis Biotech Whitelist Core" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+  <admin type="fast"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=10385,22=24199,25=60972,80=51763</portRemap>
+  <portsForCrack val="3"/>
+  <trace time="75"/>
+  <proxy time="1.75"/>
+  <firewall level="" solution="" additionalTime="1.0"/>
+  <dlink target="kbt_network08"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="finaleDecision" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="getadmin" target="rid3rFinaleDecisionComp"/>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<branchMission>
+  <branch>Missions/FinaleDecisionAlt.xml</branch>
+</branchMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>A decision</subject>
+    <body>Well.
+There you go.
+A decision.
+
+Take your pick.
+    </body>
+    <attachments>
+      <link comp="uniteSystemFinaleDecisionComp"/>
+      <link comp="rid3rFinaleDecisionComp"/>
+    </attachments>
+  </email>
+</mission>

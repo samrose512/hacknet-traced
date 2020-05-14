@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network06" name="Kellis Biotech Workstation #208" security="1" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=530,22=8016,25=1004,80=2673</portRemap>
+  <portsForCrack val="3"/>
+  <trace time="100"/>
+  <proxy time="1.5"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <file path="home" name="firewall.txt">talk shit about whitelist firewall password here</file>
+  <WhitelistAuthenticatorDaemon Remote="kbt_network04"/>
+</Computer>

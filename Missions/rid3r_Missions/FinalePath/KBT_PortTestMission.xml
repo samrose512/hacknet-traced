@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="kbt_mission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedownload" target="kbt_network08" file="KBT_PortTest.exe" path="bin"/>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Kellis</subject>
+    <body>Hey, are you alright?
+I know that Unite was one of the first people you met, but I assure you that he is nothing but evil. They all are.
+
+The fact that you destroyed his system goes to show that you believe me and want to take Ghosts down. Thank you.
+The best way to cripple them is to delete their entire mainframe's files. If all of their files go, they won't be able to recover.
+Unfortunately they've stolen some code from a biotech company's servers and incorporated it into their mainframe. That means you'll have to crack that port as well.
+Fortunately for us, I know where we could get the cracker for it. The company developed a port tester, a stresser that sends junk data to the port to see how much it could take before crashing.
+
+Find that file.
+People's lives depend on it.
+
+-rid3r
+    </body>
+    <attachments>
+      <link comp="kbt_network01"/>
+    </attachments>
+  </email>
+</mission>

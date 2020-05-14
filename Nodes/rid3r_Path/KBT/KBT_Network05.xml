@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="kbt_network05" name="Kellis Biotech Workstation #440" security="1" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=1048,22=6077,25=8349,80=10</portRemap>
+  <portsForCrack val="3"/>
+  <trace time="100"/>
+  <proxy time="1.5"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <dlink target="kbt_network07"/>
+  <file path="home" name="lorefile.txt">talk shit about pacemakers here
+give hint of KBT_PortTest</file>
+  <WhitelistAuthenticatorDaemon Remote="kbt_network04"/>
+</Computer>
