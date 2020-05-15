@@ -4,6 +4,7 @@ hideNetMap $#%#$
 hideRam $#%#$
 hideDisplay $#%#$
 stopMusic $#%#$
+clearTerminal $#%#$
 writel Hello. $#%#$
 delay 2.5 $#%#$
 writel Do not go looking for Mentel. $#%#$
