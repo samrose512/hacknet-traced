@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <Computer id="01aComp" name="Michael PC" security="1" allowsDefaultBootModule="false" type="4">
-  <admin type="basic"/>
+  <admin type="none"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="0"/>
   <trace time="-1"/>

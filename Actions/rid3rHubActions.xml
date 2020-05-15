@@ -7,4 +7,7 @@
     <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
     <AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
   </Instantly>
+  <OnConnect target="rid3rHub">
+    <RunFunction FunctionName="addFlags:rid3rFlag1"/>
+  </OnConnect>
 </ConditionalActions>

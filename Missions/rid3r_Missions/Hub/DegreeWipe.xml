@@ -4,7 +4,7 @@
   <goal type="wipedegrees" owner="Jean-Luc Stevenson"/>
 </goals>
 <nextMission IsSilent="false">NONE</nextMission>
-  <posting title="placeholder title 1">placeholder title, you have to do something to play the next mission idk</posting>
+  <posting title="placeholder title 1" reqs="rid3rFlag1">placeholder title, you have to do something to play the next mission idk</posting>
   <email>
     <sender>rid3r</sender>
     <subject>placeholder title</subject>
