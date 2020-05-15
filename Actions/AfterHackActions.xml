@@ -1,11 +1,5 @@
 <ConditionalActions>
-  <Instantly>
-    <RunFunction FunctionName="playCustomSong:Music/MoonlightSonata.ogg"/>
-  </Instantly>
   <OnConnect target="playerComp">
     <LaunchHackScript Filepath="HackerScripts/AfterHackScript.txt" DelayHost="FAH" Delay="5.5" SourceComp="newIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-  </OnConnect>
-  <OnConnect target="rid3rHub">
-    <RunFunction FunctionName="addRankSilent" FunctionVal="1"/>
   </OnConnect>
 </ConditionalActions>

@@ -1,15 +1,14 @@
 <ConditionalActions>
   <Instantly>
-    <RunFunction FunctionName="playCustomSong:Music/HouseOfCirno.ogg"/>
+    <RunFunction FunctionName="playCustomSong:Music/PeerGynt.ogg"/>
   </Instantly>
   <OnAdminGained target="mentelGateway">
     <LaunchHackScript Filepath="HackerScripts/GhostsEndScript.txt" DelayHost="FAH" Delay="2.5" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-    <CrashComputer TargetComp="playerComp" CrashSource="ghostsEndHackComp" DelayHost="FAH" Delay="16.0"/>
     <ChangeIP DelayHost="FAH" Delay="16.0" TargetComp="ghostsEndHackComp" NewIP="84.156.92.73"/>
-    <HideAllNodes DelayHost="FAH" Delay="16.0"/>
-    <ShowNode DelayHost="FAH" Delay="16.5" target="playerComp"/>
-    <ShowNode DelayHost="FAH" Delay="16.5" target="jmail"/>
-    <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="16.5"/>
-    <LoadMission MissionName="Missions/rid3r_Missions/NewsSiteTakedownMission.xml"/>
+    <HideAllNodes DelayHost="FAH" Delay="20.0"/>
+    <ShowNode DelayHost="FAH" Delay="20.0" Target="playerComp"/>
+    <ShowNode DelayHost="FAH" Delay="20.0" Target="jmail"/>
+    <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="20.0"/>
+    <AddConditionalActions Filepath="Actions/Startrid3rMissions.xml" DelayHost="FAH" Delay="30.0"/>
   </OnAdminGained>
 </ConditionalActions>

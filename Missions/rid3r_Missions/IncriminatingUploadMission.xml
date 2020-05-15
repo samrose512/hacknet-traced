@@ -4,8 +4,7 @@
   <goal type="filedownload" target="rid3rAssets" file="Evidence.dec" path="home"/>
   <goal type="fileupload" target="playerComp" file="Evidence.dec" path="home" destTarget="policeAnonUpload" destPath="Drop/Uploads"/>
 </goals>
-<nextMission IsSilent="false">Missions/EndMission.xml</nextMission>
-<!--<nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickEmail.xml</nextMission>-->
+<nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickEmail.xml</nextMission>
   <email>
     <sender>rid3r</sender>
     <subject>Onwards</subject>

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <Computer id="02aComp" name="Jane NUC v2.14.10378" allowsDefaultBootModule="true" icon="DLCPC1" type="4">
-  <admin type="basic"/>
+  <admin type="none"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="1"/>
   <trace time="150"/>
