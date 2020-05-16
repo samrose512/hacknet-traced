@@ -1,0 +1,49 @@
+config playerComp rid3rFinaleDecisionComp 0.2 $#%#$
+connect $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 1.0 $#%#$
+write I $#%#$
+write TOLD $#%#$
+write YOU $#%#$
+delay 5.0 $#%#$
+writel STOP $#%#$
+delay 2.0 $#%#$
+write HELPING $#%#$
+delay 2.0 $#%#$
+write THEM $#%#$
+delay 5.0 $#%#$
+writel THIS $#%#$
+delay 1.0 $#%#$
+write IS $#%#$
+delay 1.0 $#%#$
+write WHAT $#%#$
+delay 1.0 $#%#$
+write YOU $#%#$
+delay 1.0 $#%#$
+write GET $#%#$
+delay 1.0 $#%#$
+write WHEN $#%#$
+delay 1.0 $#%#$
+write YOU $#%#$
+delay 1.0 $#%#$
+write HELP $#%#$
+delay 1.0 $#%#$
+write TERRORISTS $#%#$
+delay 5.0 $#%#$
+disconnect $#%#$
+delete /sys x-server.sys $#%#$
+delete /sys os-config.sys $#%#$
+forkbomb $#%#$
+flash $#%#$
+delay 0.5 $#$#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$

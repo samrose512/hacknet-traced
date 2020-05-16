@@ -19,10 +19,7 @@ writel Goodbye. $#%#$
 delay 2.5 $#%#$
 writel It's been fun. $#%#$
 disconnect $#%#$
-delete /sys x-server.sys $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
-flash $#%#$
-flash $#%#$
-flash $#%#$
+instanttrace $#%#$

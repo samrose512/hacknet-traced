@@ -3,6 +3,7 @@
 <goals>
   <goal type="clearfolder" target="uniteSystemFinaleDecisionComp" path="sys"/>
 </goals>
+<missionEnd>loadConditionalActions:Actions/UniteSystemFinaleDecisionDestroy.xml</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <email>
     <sender>rid3r</sender>

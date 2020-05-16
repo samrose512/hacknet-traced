@@ -3,6 +3,7 @@
 <goals>
   <goal type="getadmin" target="rid3rFinaleDecisionComp"/>
 </goals>
+<missionEnd>loadConditionalActions:Actions/rid3rFinaleDecisionAdminGet.xml</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
 <branchMission>
   <branch>Missions/FinaleDecisionAlt.xml</branch>

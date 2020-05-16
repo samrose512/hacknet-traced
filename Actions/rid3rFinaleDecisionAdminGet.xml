@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <!--<OnAdminGained target="rid3rFinaleDecisionComp">-->
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/FinaleDecisionrid3rHack.txt" DelayHost="FAH" Delay="5.0" SourceComp="rid3rFinaleDecisionComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </Instantly>
+  <!--</OnAdminGained>-->
+</ConditionalActions>

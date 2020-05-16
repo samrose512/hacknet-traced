@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="rid3rFinaleDecisionComp" name="rid3r Battlestation" security="2" allowsDefaultBootModule="false" type="4">
+  <admin type="fast" resetPassword="false"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=20,22=2220,25=3535,80=8008</portRemap>
+  <portsForCrack val="3"/>
+  <trace time="100"/>
+  <proxy time="1.5"/>
+  <firewall level="6" additionalTime="0.25"/>
+  <file path="home" name="readme.txt">Got you again!</file>
+</Computer>

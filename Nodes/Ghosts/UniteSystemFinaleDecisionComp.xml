@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="uniteSystemFinaleDecisionComp" name="UniteSystem Battlestation" security="2" allowsDefaultBootModule="false" type="4">
+  <admin type="fast" resetPassword="false"/>
+  <ports>21,22,25,80</ports>
+  <portRemap>21=164829,22=10448751,25=35353535,80=2147483647</portRemap>
+  <portsForCrack val="4"/>
+  <trace time="100"/>
+  <proxy time="1.75"/>
+  <firewall level="8" additionalTime="0.3"/>
+</Computer>
