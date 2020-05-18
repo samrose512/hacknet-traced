@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="sendMedicalDoc" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="sendemail" mailServer="jmail" recipient="l.muna" subject="MedicalRecord - Herbert_John"/>
+</goals>
+<missionEnd>addFlags:rid3rFlag3</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="Do No Harm" reqs="rid3rFlag2">Send a questionable medical record to a user.</posting>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Do No Harm</subject>
+    <body>A user has been making some derogatory terms towards one of my oldest friends. This is not acceptable.
+As appropriate payback, we will be sending the user a medical record of my friend detailing his conditions. Maybe that will put him in his place.
+    </body>
+    <attachments>
+      <link comp="medical"/>
+    </attachments>
+  </email>
+</mission>

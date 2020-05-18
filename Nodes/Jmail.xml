@@ -4,6 +4,7 @@
   <account username="#PLAYERNAME#" password="#PLAYER_ACCOUNT_PASSWORD#" type="MAIL"/>
   <account username="simon.j" password="ashley" type="MAIL"/>
   <account username="unisoft.security" password="XIHFI8A1" type="MAIL"/>
+  <account username="l.muna" password="jaune" type="MAIL"/>
   <ports>25,80,443,1433</ports>
   <portsForCrack val="4"/>
   <trace time="200"/>
@@ -19,6 +20,14 @@ New password is u5hg431ozb.
 
 Thanks,
 David
+    </email>
+    <email recipient="l.muna" sender="t.rorchwick" subject="Acceptance">
+First line
+Second line
+RWBY reference here, idk
+
+Best wishes,
+T. Rorchwick
     </email>
   </mailServer>
 </Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Person id="John_Herbert" handle="j.herbert" firstName="John" lastName="Herbert" isMale="true">
+  <Birthplace name="New York City, United States of America"/>
+  <Degrees>
+    <Degree uni="City University of New York School of Law" gpa="5.8">Masters in Law</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>159</Height>
+    <Allergies>Peanuts</Allergies>
+    <Perscription>2x Epinephrine Autoinjectors per month :: For peanut allergy in case of accidential consumption</Perscription>
+    <Perscription>Lisinopril x70 bi-monthly :: For high blood pressure due to Polycystic kidney disease</Perscription>
+    <Notes>Vaccines for university tuition given in 2019, boost given in February 2020 and future boost to be given in March 2021.</Notes>
+  </Medical>
+  <DOB>12/05/1999 14:30:00</DOB>
+  <Notes>Used for Missions/rid3r_Missions/Hub/SendMedicalDocument.xml</Notes>
+</Person>

@@ -3,6 +3,7 @@
 <goals>
   <goal type="wipedegrees" owner="Jean-Luc Stevenson"/>
 </goals>
+<missionEnd>addFlags:rid3rFlag2</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <posting title="placeholder title 1" reqs="rid3rFlag1">placeholder title, you have to do something to play the next mission idk</posting>
   <email>

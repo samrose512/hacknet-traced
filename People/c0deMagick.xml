@@ -8,8 +8,8 @@
   <Medical>
     <Blood>O</Blood>
     <Height>175</Height>
-    <Allergies>None</Allergies>
-    <Perscription>None</Perscription>
+    <Allergies>NONE</Allergies>
+    <Perscription>NONE</Perscription>
     <Notes>Due to a heart condition from birth that cannot be treated, the patient has been fitted with a pacemaker to help regulate bloodflow. The IP address for the pacemaker is below for easy access by the pacemaker's firmware update team.
 16.180.232.45</Notes>
   </Medical>

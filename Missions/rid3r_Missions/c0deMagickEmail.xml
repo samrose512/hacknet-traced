@@ -2,6 +2,7 @@
 <mission id="c0deMagickEmail" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
   <goal type="hasflags" target="JL_Stevenson:DEAD"/>
+  <goal type="delay" time="40.0"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/c0deMagickActions.xml</missionStart>
 <nextMission IsSilent="false">Missions/rid3r_Missions/c0deMagickDeath.xml</nextMission>

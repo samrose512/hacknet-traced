@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Person id="Michael_Simpson" handle="m.simpson" firstName="Michael" lastName="Simpson" isMale="true">
+  <Birthplace name="Birmingham, England"/>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>173</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>NONE</Perscription>
+    <Notes>NONE</Notes>
+  </Medical>
+  <DOB>01/01/1990 10:51:00</DOB>
+  <Notes>Used for Missions/rid3r_Missions/Hub/DegreeAdd.xml</Notes>
+</Person>

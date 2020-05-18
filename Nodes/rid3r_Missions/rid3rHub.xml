@@ -7,5 +7,5 @@
   <trace time="50"/>
   <proxy time="2"/>
   <firewall level="10" additionalTime="0.5"/>
-  <missionHubServer groupName="rid3rContracts" serviceName="rid3r Contract Hub" missionFolderPath="Missions/rid3r_Missions/Hub" themeColor="175,238,238" lineColor="20,25,45,200" backgroundColor="10,15,25,200" allowAbandon="false"/>
+  <missionHubServer groupName="rid3r" serviceName="rid3r Contract Hub" missionFolderPath="Missions/rid3r_Missions/Hub" themeColor="175,238,238" lineColor="20,25,45,200" backgroundColor="10,15,25,200" allowAbandon="false"/>
 </Computer>

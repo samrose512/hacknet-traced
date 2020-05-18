@@ -19,6 +19,7 @@ I look forward to seeing you take some contracts.
     </body>
     <attachments>
       <link comp="rid3rHub"/>
+      <account comp="rid3rHub" user="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#"/>
       <link comp="rid3rAssets"/>
     </attachments>
   </email>

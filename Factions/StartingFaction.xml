@@ -31,26 +31,28 @@
   </Action>
   <Action ValueRequired="3">
     <AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="ghostsAssets" TargetFolderpath="bin"/>
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="2.5">good job everyone.</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="6.0">thanks so much for this, you're helping me so much with our projects</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">yeah when are any of these "projects" going to be done</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="9.0">yeah when are any of these "projects" going to be done</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="12.0">Unite's right.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="15.0">We have been working towards your projects. I think we should know what they are.</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="17.5">well, i'm glad you asked because one of them just got completed.</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="20.0">check the assets server.</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="23.5">...</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="25.0">im sorry</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="27.5">for what?</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="31.0">im sorry for moaning at you</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="33.5">oh, it's fine! don't worry about it.</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="37.0">You guys. You need to see this program Mentel uploaded.</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="42.0">It's an FTP cracker. Even faster than the one I have. Optimised too.</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="45.0">new missions. have fun...</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="46.5">actually...</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="49.0">let's give #PLAYERNAME# the first choice.</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="51.5">fine with me</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="54.0">Alright.</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="57.5">great! @#PLAYERNAME# choose the one that looks the most interesting to you.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="20.0">well, i'm glad you asked because one of them just got completed.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="23.5">check the assets server.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="25.0">...</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="27.5">im sorry</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="31.0">for what?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="33.5">im sorry for moaning at you</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="37.0">oh, it's fine! don't worry about it.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="42.0">You guys. You need to see this program Mentel uploaded.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="45.0">It's an FTP cracker. Even faster than the one I have. Optimised too.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="48.0">and a http worm too.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="49.5">anyway, new missions. have fun...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="51.5">actually...</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="54.0">let's give #PLAYERNAME# the first choice.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="57.5">fine with me</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="60.0">Alright.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="newIRC" Delay="62.5">great! @#PLAYERNAME# choose the one that looks the most interesting to you.</AddIRCMessage>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03a.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03b.xml" TargetComp="newIRC"/>
     <AddMissionToHubServer MissionFilepath="Missions/Ghosts/03/03c.xml" TargetComp="newIRC"/>

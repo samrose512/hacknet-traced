@@ -4,7 +4,7 @@
   </Instantly>
   <OnAdminGained target="mentelGateway">
     <RunFunction FunctionName="addFlags:CSEC_Member"/>
-    <LaunchHackScript Filepath="HackerScripts/GhostsEndScript.txt" DelayHost="FAH" Delay="2.5" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    <LaunchHackScript Filepath="HackerScripts/GhostsEndScript.txt" DelayHost="FAH" Delay="0.5" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
     <ChangeIP DelayHost="FAH" Delay="16.0" TargetComp="ghostsEndHackComp" NewIP="84.156.92.73"/>
     <HideAllNodes DelayHost="FAH" Delay="20.0"/>
     <ShowNode DelayHost="FAH" Delay="20.0" Target="playerComp"/>

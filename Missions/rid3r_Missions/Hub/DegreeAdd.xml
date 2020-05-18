@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="addDegree" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="AddDegree" owner="Michael Simpson" degree="Masters in Statistical Science" uni="University of Oxford" gpa="4.2"/>
+</goals>
+<nextMission IsSilent="false">Missions/EndMission.xml</nextMission>
+  <posting title="Graduation Day" reqs="rid3rFlag3">Help a user obtain a lucrative career.</posting>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Graduation Day</subject>
+    <body>A fellow user has requested that we add a degree to their academic records in order to obtain a high-paying job.
+Details are included below and are also attached in a note.
+
+Name: Michael Simpson
+Degree: Masters in Statistical Science
+University: University of Oxford
+GPA: 4.2 or above
+
+IMPORTANT: Remember to clear your tracks - international institutes rely on their reputation to remain relevant - you are compromising that. If they discover this, they will not be forgiving.
+    </body>
+    <attachments>
+      <link comp="academic"/>
+      <note title="Degree Information">Name: Michael Simpson
+Degree: Masters in Statistical Science
+University: University of Oxford
+GPA: 4.2 or above</note>
+    </attachments>
+  </email>
+</mission>
