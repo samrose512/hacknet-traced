@@ -31,7 +31,7 @@ delay 1.0 $#%#$
 write YOU $#%#$
 delay 1.0 $#%#$
 write HELP $#%#$
-delay 1.0 $#%#$
+delay 1.5 $#%#$
 write TERRORISTS $#%#$
 delay 5.0 $#%#$
 disconnect $#%#$

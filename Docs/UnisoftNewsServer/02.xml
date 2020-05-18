@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="unisoftNewsArticle2">
+<goals>
+</goals>
+<nextMission>NONE</nextMission>
+  <posting title="Engine upgrade">Hello everyone! Hope you're all having fun playing games this summer,
+
+We are announcing here in this post that from now on we shall be using the new Surreal Engine 5 once Great Games release a stable build to us.
+
+From now on, expect to see all of the new enhancements such as ray-tracing, better post-processing capabilities and other graphical/sound upgrades.
+
+All of us at Unisoft look forward to bringing you the finest quality games in the video game industry!
+
+Sarah Yang
+Unisoft CEO and Programmer</posting>
+  <email>
+    <sender>Error</sender>
+    <subject>Error</subject>
+    <body>If you are seeing this then there has been an error in the Hacknet extension. Please contact Samaritan about this.</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
