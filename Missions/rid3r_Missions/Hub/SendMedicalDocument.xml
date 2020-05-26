@@ -1,8 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="sendMedicalDoc" activeCheck="false" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="sendemail" mailServer="jmail" recipient="l.muna" subject="MedicalRecord - Herbert_John"/>
+  <goal type="filechange" target="jmail" file="MedicalRecord_-_Herbert_John" path="mail/accounts/l.muna/inbox" keyword="Discord" removal="true"/>
 </goals>
+<missionStart>loadConditionalActions:Actions/DoNoHarmActions.xml</missionStart>
 <missionEnd>addFlags:rid3rFlag3</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <posting title="Do No Harm" reqs="rid3rFlag2">Send a questionable medical record to a user.</posting>
@@ -13,6 +14,8 @@
 As appropriate payback, we will be sending the user a medical record of my friend detailing his conditions. Maybe that will put him in his place.
     </body>
     <attachments>
+      <note title="">Name: John Herbert
+Email to send to: l.muna@jmail.com</note>
       <link comp="medical"/>
     </attachments>
   </email>

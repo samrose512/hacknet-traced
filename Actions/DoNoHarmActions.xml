@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <CopyAsset DestFilePath="mail/accounts/l.muna/inbox" DestComp="jmail" SourceComp="FAH" SourceFileName="MedicalRecord_-_Herbert_John" SourceFilePath="home"/>
+  </Instantly>
+</ConditionalActions>

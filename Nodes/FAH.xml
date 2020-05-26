@@ -7,4 +7,24 @@
   <proxy time="-1"/>
   <firewall level="-1"/>
   <FastActionHost/>
+  <file path="home" name="MedicalRecord_-_Herbert_John">The following is a Discord archive of how this mission works:
+[18:29] Fayti1703 // Press Any Key: @Sam // Hacknet: Traced Basically just: Create a file with some string that doesn't appear in the report in it. Idk. "bananas". Put that on some hidden node. When the mission begins, copy that over to the mail server with the same file name that the medical record email will write to. Then filechange for that string's removal.
+[18:29] Sam // Hacknet: Traced: oh right
+[18:30] Sam // Hacknet: Traced: so I need a file called MedicalRecord - Herbert_John with anything as the content
+[18:30] Fayti1703 // Press Any Key: MedicalRecord_-_Herbert_John.
+[18:30] Sam // Hacknet: Traced: when I send the file over from Universal Medical
+[18:30] Sam // Hacknet: Traced: oh
+[18:30] Sam // Hacknet: Traced: that's... not what the files here say, not even in the save file
+[18:30] Fayti1703 // Press Any Key: You sure?
+[18:30] Sam // Hacknet: Traced: oh wait no
+[18:30] Sam // Hacknet: Traced: mail server has it
+[18:30] Sam // Hacknet: Traced: I was looking at the wrong thing, sorry
+[18:31] Sam // Hacknet: Traced: so file called MedicalRecord_-_Herbert_John
+[18:31] Sam // Hacknet: Traced: anything as the content
+[18:31] Sam // Hacknet: Traced: when the email is sent from Universal Medical
+[18:31] Sam // Hacknet: Traced: it will overwrite that file
+[18:31] Fayti1703 // Press Any Key: Yup.
+[18:31] Sam // Hacknet: Traced: removing the string
+[18:31] Sam // Hacknet: Traced: thus completing the mission
+[18:31] Sam // Hacknet: Traced: that's a nice workaround, props to matrix for discovering that</file>
 </Computer>
