@@ -1,6 +1,5 @@
 <ConditionalActions>
   <Instantly>
     <LoadMission MissionName="Missions/rid3r_Missions/NewsSiteTakedownMission.xml"/>
-    <RunFunction FunctionName="playCustomSong:Music/MoonlightSonata.ogg"/>
   </Instantly>
 </ConditionalActions>

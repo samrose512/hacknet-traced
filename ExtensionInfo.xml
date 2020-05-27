@@ -1,7 +1,7 @@
 <HacknetExtension>
   <Language>en-us</Language>
   <Name>Hacknet: Traced</Name>
-  <AllowSaves>true</AllowSaves>
+  <AllowSaves>false</AllowSaves>
   <StartingVisibleNodes>oldIRC,networkEducationArchives</StartingVisibleNodes>
   <StartingMission>Missions/StartingMission.xml</StartingMission>
   <StartingActions>Actions/NewGameActions.xml</StartingActions>
@@ -11,7 +11,7 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   <HasIntroStartup>false</HasIntroStartup>
   <StartingTheme>Themes/RainTheme.xml</StartingTheme>
-  <IntroStartupSong>Music/music3.ogg</IntroStartupSong>
+  <IntroStartupSong>Music/Silence.ogg</IntroStartupSong>
   <SequencerTargetID>sequencerNode</SequencerTargetID>
   <SequencerSpinUpTime>14.5</SequencerSpinUpTime>
   <SequencerFlagRequiredForStart>sequencerFlag</SequencerFlagRequiredForStart>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="rid3rHijackedAirplane" name="PA_747_0013 Flight Computer" security="5" allowsDefaultBootModule="true" icon="PacificAir" type="4">
+  <ports>22,192</ports>
+  <portsForCrack val="2"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <AircraftDaemon Name="Pacific Air Flight PA704" OriginX="0.6672" OriginY="0.4264" DestX="0.4304" DestY="0.8339"/>
+</Computer>

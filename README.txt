@@ -1,0 +1,2 @@
+Hello. Thanks for downloading Hacknet: Traced.
+Please note that this extension is best played in one session - I cannot guarantee the extension's stability if you try to load a save file of this extension.
