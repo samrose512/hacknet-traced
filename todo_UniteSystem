@@ -1,8 +1,8 @@
 Player tries to destroy rid3r's system, gets hacked
 
-x-server.sys and os-config.sys files are removed (backup os-config.sys file before it is deleted)
+x-server.sys and os-config.sys files are removed
 
-Mentel connects to player, gives them IP to Ghosts_BackupServer
+Mentel connects to player, gives them IP to restoreSysFilesComp
 
 Player restores x-server.sys and os-config.sys
 
