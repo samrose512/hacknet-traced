@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LoadMission MissionName="Missions/rid3r_Missions/IRCInvite.xml"/>
+  </Instantly>
+</ConditionalActions>

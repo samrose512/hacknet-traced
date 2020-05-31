@@ -1,12 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="rid3rIRC1" name="rid3r Contract Hub IRC" security="3" allowsDefaultBootModule="true" type="4">
+<Computer id="rid3rIRC1" name="rid3r IRC" security="3" allowsDefaultBootModule="true" type="4">
   <admin type="fast"/>
   <ports>21,22,80,1433</ports>
   <portsForCrack val="4"/>
   <trace time="50"/>
   <proxy time="2"/>
   <firewall level="8" additionalTime="0.5"/>
-  <IRCDaemon themeColor="175,238,238" name="rid3r Contract Hub IRC" needsLogin="false">
+  <IRCDaemon themeColor="175,238,238" name="rid3r IRC" needsLogin="false">
+    <user name="Channel" color="128,128,128"/>
     <user name="rid3r" color="65,105,225"/>
+    <user name="UniteSystem" color="255,0,0"/>
   </IRCDaemon>
 </Computer>

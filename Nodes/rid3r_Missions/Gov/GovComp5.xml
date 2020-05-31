@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="govMissionComp5" name="United States Government Computer 12" security="2" ip="23.15.103.34" allowsDefaultBootModule="false" type="4">
+  <adminPass pass="X0SCT23NRJ0BF5Q3"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="9999"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <dlink target="govMissionComp6"/>
+  <encryptedFile path="home" name="Project_T47.dec" extension=".pdf" ip="192.168.1.1" header="TOP SECRET - Project T47" pass="somethingorother">#BINARY#</encryptedFile>
+</Computer>

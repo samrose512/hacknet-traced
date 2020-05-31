@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="govMissionHomeComp" name="Paul PC" security="1" ip="10.196.84.7" allowsDefaultBootModule="false" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="1"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="5" additionalTime="0.25"/>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <Memory>
+    <Commands>
+    </Commands>
+    <Data>
+      <Block>X0SCT23NRJ0BF5Q3</Block>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+</Computer>

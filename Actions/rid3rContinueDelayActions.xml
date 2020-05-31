@@ -1,0 +1,28 @@
+<ConditionalActions>
+  <Instantly>
+    <AddConditionalActions Filepath="Actions/rid3rContinueDelayActions2.xml" DelayHost="FAH" Delay="2.5"/>
+  </Instantly>
+  <HasFlags target="rid3rIRCFlag">
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="2.5">Hello @#PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="6.0">I hope you're well and nothing's happened to your system after these missions I've made you do.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="9.5">Thank you again, by the way.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="13.0">You've helped us so much, and I can't thank you enough.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="16.5">The truth is, I haven't exactly been truthful with you.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="20.0">You see, my name isn't actually rid3r, it's</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="rid3rIRC1" Delay="21.5">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="rid3rIRC1" Delay="23.0">User UniteSystem has entered the channel</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="26.5">@#PLAYERNAME#, wait</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="30.0">You.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="33.5">What are you doing here?</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="37.0">Haven't you done enough damage, bringing #PLAYERNAME# into your... schemes?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="40.5">Shut up for one second, okay?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="44.0">#PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="47.5">Please. Come back to us.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="51.0">Wait. One second.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="57.5">I think we should give #PLAYERNAME# the choice. We give the IPs to our systems we're on, and #PLAYERNAME# will choose the one they want to destroy.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="61.0">Sounds reckless.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="rid3rIRC1" Delay="64.5">I like it.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="68.0">Okay then, let me get it ready and I'll send an email to #PLAYERNAME#</AddIRCMessage>
+    <AddConditionalActions Filepath="Actions/rid3rContinueDelayActions3.xml" DelayHost="FAH" Delay="75.0"/>
+  </HasFlags>
+</ConditionalActions>

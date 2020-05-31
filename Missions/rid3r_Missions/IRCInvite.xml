@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="rid3rIRCInvite" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="hasflag" target="rid3rIRCFlag"/>
+</goals>
+<missionStart>loadConditionalActions:Actions/rid3rIRCInviteMissionActions.xml</missionStart>
+<missionEnd>loadConditionalActions:Actions/rid3rIRCConnectionDelayActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Thank you</subject>
+    <body>Well well, #PLAYERNAME#,
+It seems you've really helped me protect against my fellow users and most importantly my friends. I think you've earned it, so I've removed your existence from the evidence file you uploaded to the police server. You are safe.
+
+I'd like to talk with you again, so I'm linking an IRC to you. Please join as soon as possible.
+    </body>
+    <attachments>
+      <link comp="rid3rIRC1"/>
+    </attachments>
+  </email>
+</mission>

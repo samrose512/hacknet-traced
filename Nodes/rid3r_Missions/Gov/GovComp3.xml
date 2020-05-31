@@ -4,6 +4,7 @@
   <ports>21,22,25,80</ports>
   <portsForCrack val="3"/>
   <trace time="50"/>
+  <proxy time="-1"/>
   <firewall level="6" additionalTime="0.3"/>
   <encryptedFile path="home" name="Project_G7.dec" extension=".pdf" ip="192.168.1.1" header="TOP SECRET - Project G7" pass="somethingorother">#BINARY#</encryptedFile>
   <Memory>
