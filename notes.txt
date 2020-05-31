@@ -1,2 +1,1 @@
-MrMegaman.ogg - use as IntroStartupSong
-Hype.ogg - use as Sequencer song (49.5 seconds (cut this down) -> connection to Sequencer Node)
+No sound until the finale parts of the extension
