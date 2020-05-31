@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="govMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedownload" target="govMissionComp7" file="logins.hash" path="home"/>
+  <goal type="fileupload" target="playerComp" file="logins.hash" path="home" destTarget="rid3rAssets" destPath="home"/>
+</goals>
+<missionStart>loadConditionalActions:Actions/GovMissionStart.xml</missionStart>
+<missionEnd>loadConditionalActions:Actions/rid3rContinueDelayActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <posting title="Fifty Stars" reqs="rid3rFlag4">Trace a file and find some important information.</posting>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Fifty Stars</subject>
+    <body>The US government has always had special security measures in place to make sure that hackers and the like don't get into their networks. It turns out that a vulnerability has been found in their "safe and secure" system.
+
+Our group has come under some attacks that hit us hard. All we know is that the hack came from a government IP address. This can only mean one of two things: either a hacker has gained access to the network and is attacking us from behind it, or the government is coming after us.
+We want you to find out any sort of information about any hacks. To do this, you'll need two more tools. You can find them both on the assets server. A memory dump from one of our systems has also been uploaded to the assets server. You can use that to find out the source IP.
+If you find something, upload it to the /home folder of the assets server.
+
+It is very, *very* important to note now that you must NOT leave ANY tracks on any government system. It would be bad for us, but even worse for you if they caught you.
+
+I'm counting on you.</body>
+    <attachments>
+      <link comp="rid3rAssets"/>
+    </attachments>
+  </email>
+</mission>

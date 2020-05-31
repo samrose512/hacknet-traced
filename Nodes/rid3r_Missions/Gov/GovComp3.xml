@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="govMissionComp3" name="United States Government Workstation 10" allowsDefaultBootModule="false" icon="DLCPC2" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="3"/>
+  <trace time="50"/>
+  <firewall level="6" additionalTime="0.3"/>
+  <encryptedFile path="home" name="Project_G7.dec" extension=".pdf" ip="192.168.1.1" header="TOP SECRET - Project G7" pass="somethingorother">#BINARY#</encryptedFile>
+  <Memory>
+    <Commands>
+    </Commands>
+    <Data>
+      <Block>Ugh, our new supervisor is so annoying. He deleted my chess executable just as I was about to win my 1000th game. Fucking typical. Hopefully I can get the exe back from Carl if it's not been deleted yet.</Block>
+      <Block>Email: jerrymichaels.gov@jmail.com
+Password: supreme
+      </Block>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+</Computer>

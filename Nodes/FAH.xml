@@ -27,4 +27,42 @@
 [18:31] Sam // Hacknet: Traced: removing the string
 [18:31] Sam // Hacknet: Traced: thus completing the mission
 [18:31] Sam // Hacknet: Traced: that's a nice workaround, props to matrix for discovering that</file>
+  <memoryDumpFile name="dump.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>$ scp logins.hash admin@XXX.XXX.XXX.XXX:/home/logins.hash</Command>
+        <Command>admin@XXX.XXX.XXX.XXX's password:</Command>
+        <Command>logins.hash                             100%    944     0.0KB/s   00:00</Command>
+        <Command>$ cd /log</Command>
+        <Command>$ rm *</Command>
+        <Command>Deleting @106_Connection:_from_XXX.XXX.XXX.XXX....Done</Command>
+        <Command>Deleting @108_XXX.XXX.XXX.XXX_Opened_Port_21....Done</Command>
+        <Command>Deleting @110_XXX.XXX.XXX.XXX_Opened_Port_22....Done</Command>
+        <Command>Deleting @112_XXX.XXX.XXX.XXX_Opened_Port_25....Done</Command>
+        <Command>Deleting @114_XXX.XXX.XXX.XXX_Opened_Port_80....Done</Command>
+        <Command>Deleting @116_XXX.XXX.XXX.XXX_Became_Admin....Done</Command>
+        <Command>Deleting @118_XXX.XXX.XXX.XXX_Disconnected....Done</Command>
+        <Command>Deleting @118_Connection:_from_XXX.XXX.XXX.XXX....Done</Command>
+        <Command>Deleting @120_FileRead:_by_XXX.XXX.XXX.XXX_-_file:logins.hash....Done</Command>
+        <Command>Deleting @122_FileCopied:_by_XXX.XXX.XXX.XXX_-_file:logins.hash....Done</Command>
+        <Command>$ disconnect</Command>
+      </Commands>
+      <Data>
+        <Block>:: CONNECTION FROM UNKNOWN HOST ::
+:: LOGGING BEGIN ::
+
+CONNECTION DETAILS
+------------------
+IP address: 23.8.17.59
+Ports: 4 (21, 22, 25, 80)
+Hostname: United States Government Computer 40
+------------------
+
+:: LOGGING END ::
+        </Block>
+      </Data>
+      <Images>
+      </Images>
+    </Memory>
+  </memoryDumpFile>
 </Computer>

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="govMissionComp2" name="United States Government Corporate Whitelist" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+  <admin type="fast"/>
+  <ports>25,80</ports>
+  <portsForCrack val="2"/>
+  <trace time="50"/>
+  <proxy time="2"/>
+  <firewall level="-1"/>
+  <dlink target="govMissionComp3"/>
+  <dlink target="govMissionComp4"/>
+  <dlink target="govMissionComp5"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false"/>
+</Computer>

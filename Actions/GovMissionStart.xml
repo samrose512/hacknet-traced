@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <Instantly>
+    <AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <CopyAsset DestFilePath="home" DestComp="rid3rAssets" SourceComp="FAH" SourceFileName="dump.md" SourceFilePath="home"/>
+  </Instantly>
+</ConditionalActions>

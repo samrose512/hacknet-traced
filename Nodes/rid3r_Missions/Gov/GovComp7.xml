@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="govMissionComp7" name="United States Government Computer 16" security="2" ip="23.106.4.182" allowsDefaultBootModule="false" icon="DLCPC1" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <trace time="65"/>
+  <proxy time="1.5"/>
+  <firewall level="8" additionalTime="0.3"/>
+  <file path="home" name="logins.hash">jake47 U2FsdGVkX1+40IfsLt85X7JsE1jA9lc=
+ruby U2FsdGVkX19+N36RHlsbrBXlD8qvt/Ar
+gov-b14 U2FsdGVkX19UqTzaL3U027Cn8aAeET5p</file>
+</Computer>
