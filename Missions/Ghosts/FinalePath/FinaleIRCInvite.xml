@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghostsFinaleIRCInvite" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="hasflag" target="ghostsFinaleIRCConnected"/>
+</goals>
+<missionEnd>loadConditionalActions:Actions/GhostsFinaleIRCConnectedActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>Mentel</sender>
+    <subject>(no subject)</subject>
+    <body>(no body)</body>
+    <attachments>
+      <link comp="ghostsFinaleIRC"/>
+    </attachments>
+  </email>
+</mission>

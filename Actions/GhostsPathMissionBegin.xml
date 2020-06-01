@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LoadMission MissionName="Missions/Ghosts/FinalePath/FinaleIRCInvite.xml"/>
+  </Instantly>
+</ConditionalActions>

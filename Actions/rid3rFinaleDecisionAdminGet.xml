@@ -1,7 +1,11 @@
 <ConditionalActions>
-  <!--<OnAdminGained target="rid3rFinaleDecisionComp">-->
   <Instantly>
     <LaunchHackScript Filepath="HackerScripts/FinaleDecisionrid3rHack.txt" DelayHost="FAH" Delay="5.0" SourceComp="rid3rFinaleDecisionComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <LaunchHackScript Filepath="HackerScripts/AfterHackScript.txt" DelayHost="FAH" Delay="75.0" SourceComp="newIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <HideAllNodes DelayHost="FAH" Delay="75.0"/>
+    <ShowNode DelayHost="FAH" Delay="75.0" Target="playerComp"/>
+    <ShowNode DelayHost="FAH" Delay="75.0" Target="jmail"/>
+    <ShowNode DelayHost="FAH" Delay="75.0" Target="networkEducationArchives"/>
+    <AddConditionalActions Filepath="Actions/GhostsPathMissionBegin.xml" DelayHost="FAH" Delay="120.0"/>
   </Instantly>
-  <!--</OnAdminGained>-->
 </ConditionalActions>

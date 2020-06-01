@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="rid3rHijackedAirplane" name="PA_747_0013 Flight Computer" security="5" allowsDefaultBootModule="true" icon="PacificAir" type="4">
+<Computer id="rid3rHijackedAirplane" name="PA_747_0013 Flight Computer" security="5" ip="81.103.55.4" allowsDefaultBootModule="true" icon="PacificAir" type="4">
   <ports>22,192</ports>
   <portsForCrack val="2"/>
   <trace time="-1"/>

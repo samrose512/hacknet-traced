@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <OnConnect target="ghostsFinaleIRC">
+    <RunFunction FunctionName="addFlags:ghostsFinaleIRCConnected"/>
+    <AddConditionalActions Filepath="Actions/GhostsSequencerMissionActions.xml" DelayHost="FAH" Delay="0.5"/>
+  </OnConnect>
+</ConditionalActions>

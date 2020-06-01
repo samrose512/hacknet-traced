@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="ghostsFinaleIRC" name="Ghosts IRC" security="4" allowsDefaultBootModule="true" type="4">
+  <admin type="basic"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="4"/>
+  <trace time="25"/>
+  <proxy time="2"/>
+  <firewall level="8" additionalTime="0.5"/>
+  <IRCDaemon themeColor="175,238,238" name="Ghosts IRC" needsLogin="false">
+    <user name="#PLAYERNAME#" color="255,255,255"/>
+    <user name="Mentel" color="255,128,0"/>
+    <user name="c0deMagick" color="0,153,0"/>
+    <user name="UniteSystem" color="255,0,0"/>
+  </IRCDaemon>
+</Computer>

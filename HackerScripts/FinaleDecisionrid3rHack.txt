@@ -47,3 +47,6 @@ delay 0.5 $#%#$
 flash $#%#$
 delay 0.5 $#%#$
 flash $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
