@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="pacificAirFlightListings" name="Pacific Air Flight Listings" allowsDefaultBootModule="false" icon="PacificAir" type="4">
+  <admin type="progress"/>
+  <ports>22,25,443,1433,192</ports>
+  <portRemap>22=340</portRemap>
+  <portsForCrack val="4"/>
+  <trace time="75"/>
+  <proxy time="1.5"/>
+  <firewall level="-1"/>
+  <file path="home" name="listings.txt">0013: USA -> Australia
+0025: Japan -> France
+0039: Italy -> England
+0057: India -> China
+0058: Russia -> Romania
+0142: Finland -> Sweden</file>
+  <file path="home" name="core.dll">#BINARYSMALL#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+</Computer>

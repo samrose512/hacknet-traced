@@ -1,0 +1,100 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">todolist.txt
+
+- finish GitV
+- get hours for next week
+- win argument on animeFora
+- get swole
+- delete facebook
+- get a lawyer
+- don't actually get a lawyer
+- delete lawyer</file>
+
+  <file path="home" name="watchlist.txt">
+Anime Watch List
+
+--In Progress--
+Nights in Cydonia
+Goats in the Veldt
+Two Samurai
+Ball Boy Chipstop
+Game: Hard Mode
+Shield Science Offline
+Hey-O!
+
+--Not Started Yet--
+Goats in the Veldt: Stand on the Fence
+Die El Die
+The Guy Who Punches People But Only Once And Then He Wins The Fight And That's The Whole Episode See You Next Week!
+Hey-O!!
+Hey-O!: A Movie We Made
+My Complex Relationship With My Butt
+My Complex Relationship With My Butt II
+My Complex Relationship With My Butt II OVA : Firm Complex
+Unsatisfying Ending
+Retcon Paradise
+Large Wizard Alchemia
+Starts;Fate
+Fate;Verb/Noun
+Gatherer y Gatherer
+Story of the Secret Generator
+Spoon Collector!!!!!
+Lifeboat
+Three:Re:Hero
+Heavenyodel
+Two or Three Pieces
+Piece/Two
+Magical Friend Motoko Arcana
+Meta-Commentary On Working Conditions In The Anime Industry
+Foolish Coolish
+Immobile Dressup
+Big Fighters....???</file>
+  
+  <file path="home" name="namegenerator.txt">Place name generator, intended for tabletop dorks or something.
+
+Progress log: 
+Prefixes 0%
+Suffixes 92%
+
+Suffix - Expanses
+
+Pledge,Expanse,Accord,Division,Cliffs,Desert,Mountains,Mountain,Plains,Plain,Beach,Foothill,Bluff,Island,Islands,Isle,Isles,Crags,Crag,Emptiness,Absence,Heights,Mount,Mounts,Canyon,Mesa,Slopes,Mire,Beacons,Wastes,Waste,Coast,Coasts,Front,Homelands,Cascade,Cascades,Borderlands,Wildlands,Plateau,Hinterlands,Falls,Glacier,Volcano
+
+
+Suffix - Inland Places
+
+Dale,Forest,Wood,Valley,Ruins,Peak,Hill,Hills,Cave,Caves,Grove,Outpost,Pond,Swamp,Lake,Creek,Falls,Glen,Mire,Fen,Pass,Brook,Dam,Tarn
+
+Suffix - Villages/Encampments
+
+Division,City,Town,Village,Road,Parish,Outpost,Camp,County
+
+Suffix - Places by the Water
+
+Harbor,Inlet,Dock,Pier,Port,Wharf,Anchorage,Cove,Gulf,Jetty,Bight,Bay,Fjord,Landing,Sound,Loch,Lagoon,Bayou,Basin,Estuary,Stait,Narrows,Bridge,Canal,Watercourse,Beach,Crossing
+
+Suffix - Military Places
+
+Fortress,Fort,Castle,Fortalice,Keep,Stronghold,Redoubt,Bastion,Citadel,Garrison,Tower,Stockade,Stronghold,Ward,Supply Depot
+
+Suffix - Places of Well-To-Do Citizenry
+
+Manor,Castle,Keep,Mansion,Chateau,House,Villa,Estate,Palace,Hall,Alcazar
+
+Suffix - Places of Private Citizenry
+
+Apartments,House,Farm,Estate,Residence,Shack,</file>
+  
+</Computer>

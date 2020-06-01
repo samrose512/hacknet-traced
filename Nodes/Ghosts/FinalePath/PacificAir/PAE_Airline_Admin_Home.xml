@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_home" name="Yasu Arai's eBook Touch" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylence had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">Ryosan,
+
+I'm glad to hear you're doing well. I loved last month's letter; your new poetry flows much more smoothly these days. Like a river. Sorry. I'm not very good at it, ha ha. Every time you send me a poem I grow more and more proud of you.
+
+As for my new life... it is going 
+smoothly. My new job is stressful, but in a good way - I find myself challenged daily, but no obstacle is insurmountable. 
+
+Well, the Los Angeles traffic is insurmountable, but, you know. Do you know? If you ever drove to Obasan's apartment in Tokyo you would have some idea. The traffic in Los Angeles is the worst. Just trust me on this.
+
+One of the bigger problems I have had in this job is dealing with the security companies. They think they can just walk all over you and install their programs on your computers without consulting you first. Can you imagine? It happened to me last week. This puffed-up consultant walked in and demanded access to our servers, and to my personal machines as well. Even my tablet! It is absolutely ridiculous.
+
+Anyway, now I am unsure whether there's a keylogger on my computer, but... I guess there's no need to worry. Their security is pretty strong, and even though my computer's a little slower now, I feel safe.
+
+Ryo, I miss you. I'm a little lonely. Please tell Mom I miss her, too. I will put some photos of my new apartment inside the envelope so that you and her can tell me how to decorate it.
+
+Thank you for the tablet, by the way. It made my week. Even though those Psylance jerks are installing things on it, ha ha.
+
+Love,
+Yasu
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="Yasu's ePad Plus" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>TODO: refill T rx</note>
+    
+    <note>bridget wants to go out friday
+    figure out a nice bar. 
+    maybe that new place with board games</note>
+    <note>todo
+    send complaint note to psylance
+    set alarm for ePad++ keynote
+    print and mail ryo letter
+    shopping list: gin, cider, lemons, tonic water, birthday card for jack's 27th, dishwasher liquid, laundry detergent, kitschy shotglasses
+    organize endocrinologist checkup</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

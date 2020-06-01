@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_whitelist" name="PacificAir_Whitelist_Authenticator" security="5" type="4" icon="PacificAir">
+
+  <!-- This server is part of the security system the external contractors "Psylance" put in place
+  Connections to the critical servers (Bookings mainframe, mail, and this one) are automatically denied
+  unless they're on the whitelist, hosted on this server.
+  
+  Shortly after the player gets here, Coel or Default will work their magic to disable it.
+  Alt plan is to add the team's IP's to the list, but that involves a lot of extras
+  (making comps for Coel/default if the player follows the lead, scan being less elegant,
+  someone needing to delete those entries after mission is over. Desirables, if I have time)
+  
+  This means that this computer contains a list of external IPs of employee home computers that can access it.
+  Scanning will reveal all of these, as a shortcut.
+  
+  It should contain a few technical documents explaining what it does, and a few notes from the Psylance staff about
+  people who want access etc, and a copy+paste message they can use to deny people.
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>21, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <positionNear target="dpa_nethub" position="180" total="360" extraDistance="0.1"/>
+
+  <dlink target="dpae_airline_misc"/>
+  <dlink target="dpae_airline_mailLink"/>
+  <dlink target="dpae_airline_home"/>
+  <dlink target="dpae_psy_1"/>
+  <dlink target="dpae_psy_2"/>
+
+  <WhitelistAuthenticatorDaemon />
+  
+  <file path="Whitelist" name="list.txt">
+98.124.245.24
+141.8.224.143
+141.88.107.140
+208.91.197.160
+209.68.11.125
+  </file>
+
+
+  <file path="home" name="general.txt">This server is an integral part of Psylance's vertically integrated security system. Its function is to prevent unauthorized connections to selected critical parts of your infrastructure.</file>
+  
+  <file path="home" name="connection_autodeny_draft.txt">Connection Denied. Reason: Not On Whitelist
+If you believe this message is incorrect, please contact your Psylance-certified administrator at INSERT EMAIL HERE.
+notes: run this by psylance</file>
+
+  <file path="home/requests" name="denial_template.txt">Hello INSERT NAME HERE,
+Thank you for your application to access the server.
+Unfortunately, access to this machine is highly limited, and your reasons for wanting to access it do not meet the threshold for your being added to the whitelist.
+If you believe we have missed an important detail, or sent this message in error, please contact your Psylance-certified administrator at INSERT EMAIL HERE.</file>
+
+  <file path="home/requests" name="rq_g.txt">log:denied
+notes:known to be irresponsible with node access</file>
+
+  <file path="home/requests" name="rq_n.txt">log:accepted
+notes:vital member of team, important for access, known to be trustworthy</file>
+
+  <file path="home/requests" name="rq_test.txt">hi, my name is blah blah and i need to connect for blah reasons. please let me in i'm so lonely.</file>
+  
+</Computer>

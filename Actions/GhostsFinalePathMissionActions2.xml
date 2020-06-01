@@ -7,6 +7,11 @@
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="16.5">No clue, it could take hours or even days.</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="18.0">Found it.</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="21.5">...</AddIRCMessage>
-    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="25.0">!ATTACHMENT:link#%#rid3rHijackedAirplane#%#81.103.55.4</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="25.0">@#PLAYERNAME#, we need your help for this.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="28.5">You've got to remove the flight operation file on the plane. It should look like 747FlightOperations.dll or something. Once the file is removed, you can find the Reload Firmware button on the main control menu.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="32.0">We know you can do this!</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="35.5">Good luck, #PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="39.0">@UniteSystem if you would?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="43.5">!ATTACHMENT:link#%#rid3rHijackedAirplane#%#81.103.55.4</AddIRCMessage>
   </OnAdminGained>
 </ConditionalActions>

@@ -1,6 +1,25 @@
 <ConditionalActions>
   <OnConnect target="ghostsFinaleIRC">
     <RunFunction FunctionName="addFlags:ghostsFinaleIRCConnected"/>
-    <AddConditionalActions Filepath="Actions/GhostsSequencerMissionActions.xml" DelayHost="FAH" Delay="0.5"/>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="3.5">Hey @#PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="7.0">I hope you're alright. Did rid3r do anything to you?</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="10.5">Oh, am I going to get no thanks?</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="14.0">Alright, alright, I'm getting there.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="17.5">It's fine! lmao</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="21.0">I'm just glad one of our own has come back after probably going through hell with rid3r.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="24.5">Hello #PLAYERNAME#. Good to see you back.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="29.5">Okay, down to business because we don't have a lot of time.</AddIRCMessage>
+    <RunFunction FunctionName="changeSong" FunctionValue="8"/>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="33.0">rid3r is planning to hijack a plane to get out of the country.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="36.5">It would be... unfortunate if the plane was to suddenly fail its flight operations.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="40.0">You wouldn't. That's a human being on the plane.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="43.5">Yes, a human being with information that could put us away. Put *you* away.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="47.0">...</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="51.5">Fine.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="57.0">Okay. Let's begin.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="60.5">We don't know much, other than rid3r is planning to use a Pacific Air plane. The best place to start would be the Pacific Air network.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="64.0">!ATTACHMENT:link#%#dal_lax#%#124.80.207.13</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="67.5">Good luck everyone.</AddIRCMessage>
+    <AddConditionalActions Filepath="Actions/GhostsFinalePathMissionActions.xml" DelayHost="FAH" Delay="0.5"/>
   </OnConnect>
 </ConditionalActions>

@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_psy_1" name="Faith Morello's Laptop" security="3" ip="209.68.11.125" type="4" icon="DLCLaptop">
+  
+  <!-- Home comp of someone who works at Psylance, contracting out to the airport
+  Goes by NAME_WIP on the IRC chat of Psylance employees. 
+  
+  Has File downloaded form the Internet describing how to speed up torrents (opening torrent port),
+  contains some sort of example with port numbers, and they've changed the port to match it exactly
+  
+  This needs to contain the username and password used for the IRC server on it (but not an IP link to the server itself).
+  Perhaps write a file about it always being open, so they never have to reconnect to it or something?
+  -->
+
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881, 80</ports>
+  <portRemap>21=1887,6881=8,80=8080</portRemap>
+
+  <positionNear target="dpa_whitelist" position="240" total="360" extraDistance="0"/>
+  
+  <file path="home/torrents" name="guide.txt">PortSmacker User Guide
+
+PortSmacker is a tool intended for speeding up your torrents by using nontraditional ports to punch through ISP-level NAT throttling and firewalls.
+
+The user interface mimics a spreadsheet; to change a setting, just type a number in a cell and hit Enter. This tool is intended for advanced users, so don't fuck it up.
+
+Example Usage:
+
+I want to speed up my torrents, but port 6881 is throttled by my ISP. To get around that, I drop down to port 8, which, for some reason, works much better. Eventually the ISP will get wise, and start throttling port 8, but until then, it's fine to keep using it.
+  </file>
+
+    <file path="home/torrents" name="HackerCracker_Cracked_NoDVD.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="PortSmacker.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="DIY_Pickles_A_Guide_To_Pickling_In_The.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="VRDesk.zip">#BINARY#</file>
+
+  <file path="home/torrents" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+
+  <!-- Translators: DO NOT TRANSLATE THE NAME OR PASSWORD HERE -->
+    <file path="home/work" name="logindetails.txt">> dardour@psylance.net sent:
+> Hey Faith,
+> Here's your login details for the IRC.
+> Be sure to change them when you get the chance. via NickServ. You won't need to reconnect, for obvious reasons.
+> -Darryl
+
+> IRC Username: faithless
+> Pass: catsarebestpet</file>
+  
+</Computer>

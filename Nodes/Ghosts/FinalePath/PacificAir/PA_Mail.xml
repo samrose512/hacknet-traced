@@ -1,0 +1,140 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Pacific Air Mail" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="These cyber security guys">They are so annoying, oh my god.
+I asked someone to do something on my laptop and one of them just FLIPPED OUT. Got me to change my password immediately and everything.
+I just added a 1 to the end of it, so it shouldn't be too hard to remember, but still, pretty frustrating.
+What's their deal?
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="SPEAR-PHISHING ALERT FOR WEEK 2">This is an automated roundup of alerts for the second week of {$ActiveMonth}.
+Monday: 3 Alerts
+Tuesday: 0 Alerts
+Wednesday: 4 Alerts
+Thursday: 1 Alerts
+Friday: 2 Alerts</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re: Lunch">No thanks! I'd like to keep our relationship strictly professional.
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[ATTN: Admins] Meeting notes">C'mon, guys. You need to start writing down your meeting notes, or we'll all get in trouble.
+Especially me. 
+Please?</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="Phishing email?">Hi Kim,
+I asked around and apparently you're the best person to talk to about this.
+I received an email about a password reset and I'm not sure if it's real. Can you verify?
+> admin_password_security_reset@pacifiicaircom.org sent:
+> ""Hi Employee
+> Your Pass Word re set Email is here.
+> Please click on This Link to reset your password.
+> This is important for security.
+> Thank You,
+> Admin""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="Re: These cyber security guys">Hi J,
+I must request that you please keep the contents of your emails strictly business related. This one seems like a personal complaint, and it's unprofessional.
+Thanks!
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Re: Re: Password Reset">What the fuck dude, I ask you for one simple thing. Why can't you do this for me?
+> NetAdmin@pacificair.com sent:
+> No.
+> > athurlow@pacificair.com sent:
+> > Hey bro can you reset my password? Thanks!</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Fwd: Phishing Email?">Another one.
+-Kim
+> awilburn@pacificair.com sent:
+> Hi Kim,
+> I asked around and apparently you're the best person to talk to about this.
+> I received an email about a password reset and I'm not sure if it's real. Can you verify?
+> > admin_password_security_reset@pacifiicaircom.org sent:
+> > ""Hi Employee
+> > Your Pass Word re set Email is here.
+> > Please click on This Link to reset your password.
+> > This is important for security.
+> > Thank You,
+> > Admin""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Lunch">Hey J! Want to grab coffee or something over the weekend? I'd love to get to know you better - it's been months and I feel like we barely know each other! Let me know. :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[ATTN: Admins] Meeting notes">C'mon, guys. You need to start writing down your meeting notes, or we'll all get in trouble. 
+Especially me.
+Please?</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="SPEAR-PHISHING ALERT FOR WEEK 2">This is an automated roundup of alerts for the second week of {$ActiveMonth}.
+Monday: 3 Alerts
+Tuesday: 0 Alerts
+Wednesday: 4 Alerts
+Thursday: 1 Alerts
+Friday: 2 Alerts</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="schedule for september">hey alexina, can i get my hours for next week? thanks, j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Office Lottery">Hey everyone! Just wanted to let you all know that the office lottery's delayed - Anthony hasn't gone and bought the iPad yet, so there's... no point in running it yet, y' know? Anyway, it's still happening, but since it's a busy time of year, we might have to wait a couple of weeks.
+Best, Dan
+P.S. Congrats to Marta and Benita on the birth of their adorable baby boy! Hope to see you both soon!</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Meeting Thursday">Alexina,
+Fun little FYI: You're absolutely in the running for Employee of the Month.
+On that subject, we're having a meeting on Thursday to decide the Employee of the Month. I trust I'll see you there?
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[ATTN: ALL NON-CONTRACT EMPLOYEES] Travel Entitlements and You">~Please think of the environment before printing this email.~
+Hi, everyone! Brandi here. This email contains information and clarifications on your yearly travel entitlements.
+As I'm sure you're all aware, we've had to let some people go this year. This is a part of our round of belt-tightening across the entire company - our CEO even took a pay cut to lessen the effect of *your* pay cuts, to give you an idea.
+Anyway, the free travel program for mid-level-and-above Pacific Air employees is being extensively modified to remove ambiguities and make it simpler for low-level employees to be inducted into the program.
+You can find out all the details on the company portal, under ""NEWS"".
+Let me know if you have any questions
+Best,
+Brandi From HR</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[ATTN: FIFTH FLOOR] Toilet Troubles">OI
+WHOEVER'S TAKING SHITS ON THE FLOOR WILL BE SUMMARILY FIRED
+WE HAVE INSTALLED CAMERAS OUTSIDE THE BATHROOMS
+YOU WILL BE FOUND
+AND YOU WILL BE FIRED
+STOP TRAUMATIZING THE CLEANERS
+ 
+Best regards,
+Ramiro
+""Be the change you want to see in the world."" - Gandhi, probably</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="Pass Word reset">Hi Employee
+Your Pass Word re set Email is here.
+Please click on This Link to reset your password.
+This is important for security.
+Thank You,
+Admin</email>
+    
+    
+  </mailServer>
+  
+</Computer>

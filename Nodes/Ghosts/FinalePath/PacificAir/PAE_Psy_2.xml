@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_psy_2" name="Vito McMichael's Laptop" security="3" icon="DLCLaptop" ip="209.68.41.129" type="4">
+
+  <!-- Laptop of another Psylance employee. contains some bitching about how hard it is to keep
+  untrained people secure on a network. Contains a link to the IRC server of the Psylance workers.
+  This will be one of the people that posts on the IRC, so you can do callbacks here to that.-->
+
+  <firewall level="-1"/>
+  <trace time="60" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="290" extraDistance="0"/>
+
+  <dlink target="dpa_psylance" />
+  <admin type="progress"/>
+
+  <file path="home" name="notes_for_keeping_the_idiots_down.txt">how to keep untrained people secure on a network
+step 1: don't let them have any admin privileges
+step 2: don't let them send email outside the org unless specifically authorized
+step 3: don't let them bring in outside devices
+step 4: don't let them complain - redirect their complains to /dev/null
+step 5: watch as everything goes to shit
+step 6: go fuck yourself</file>
+
+  <file path="home" name="irc_address.txt">Vito,
+Stop forgetting the IP address. Write it down or something.
+50.31.225.93
+You've been working here for six months and it's happened at least once a fortnight. Get your shit together.
+Darryl
+
+P.S. Stop talking shit about my mom or I'll fast-track you for a demotion.</file>
+  
+</Computer>

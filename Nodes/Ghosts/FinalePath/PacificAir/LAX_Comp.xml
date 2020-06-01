@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" ip="124.80.207.13" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//This file is not intended to be user-modified;
+//it will be populated once the Schiss-Co Router Setup web application
+//is run on a local client.
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Put your custom settings here, or populate this file by running the 
+//Schiss-Co Router Setup web application, available on our online portal.
+  </file>
+  
+  <file path="home" name="readme.txt">
+Congratulations on your purchase of a Schiss-Co wireless routing server! You've bought one of the most secure pieces of networking hardware on the planet, and with just a little bit of setup, your systems will be bulletproof.
+
+For security purposes, we recommend immediately changing the default settings: when you first plug in your Schiss-Co router, it'll be open so that you can get in and configure it without having to jump over any hurdles.
+
+Next, you'll want to insert the proprietary Schiss-Co authentication key into an available USB port on the client you're using for setup. This machine can be running Windows, Mac, or any of the Linux distributions and versions listed in the manual or on our website. This is a mandatory step in the process; we need to verify that you're using a Schiss-Co supported hardware/software combination.
+
+This will launch the setup wizard.
+
+For offline setup, feel free to call 555-0167 during West Coast business hours - a trained representative will be happy to help you through the process.
+
+Please note that we do not condone the use of third-party software on Schiss-Co brand routing hardware. 
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

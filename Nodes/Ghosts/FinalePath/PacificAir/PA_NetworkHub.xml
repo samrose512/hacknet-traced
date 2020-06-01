@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="Sprites/PacificAir_Big.png" title="Sprites/PacificAirTitle.png" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+this is a public memo shaming nat for not getting me the list of contractors
+get on it!!!!! -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">This is a public memo for griffin
+Over the past few days, i've...
+Grown to understand some things
+Really, it's a long process
+If i've caused trouble, sorry!
+For you, i'm sure it's frustrating
+Finbow-senpai, please forgive me!
+In any case, it's a long process, like i said.
+Never mind the overtime I've been doing! ha ha!
+Keen to start over with a clean slate? :)
+I'd like to try!
+Same rules apply.
+Soon we'll grab coffee and it'll be cool.
+Mind the step!
+Yell at me again, go for it.
+Anyway, I wanted to wrap this one up.
+So I'll finish up this memo and get back to work.
+Say, uh, why don't you try reading the first letter of each sentence? -nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Behave, you two. If you can't act like grown-ups I'm revoking your access to this node. 
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    k
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">it looks like psylance is the one to go with, btw. thanks for getting that list to me.
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">imagine if you hadn't passive aggressively pushed me into getting the list to you so fast haha -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">THIS IS A PRODUCTION SERVER. STOP CLUTTERING THE FILESYSTEM WITH MEMOS. 
+USE THE INTRANET MESSAGE BOARD OR THE EMAIL SYSTEM THAT I SPENT A WEEK SETTING UP FOR YOU IDIOTS.
+
+CHRIST ON A GODDAMN BICYCLE.
+
+-ADMIN</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    u mad bro?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">griffin has had his privileges revoked. let this be a warning to the rest of you.
+-admin
+  </file>
+
+  <file path="home/share" name="underwater.txt">"Look here, old man; what do you say about having a shot for the Naval Reserve?" asked Ross. "In ordinary circs I would be prepared to go through Sandhurst, but this isn't ordinary circs. Before we pass out, the war will be over perhaps."
+
+"I'd rather like to see something of the fun," agreed Vernon.
+
+"As if we hadn't already," added his chum. "But I know what you mean. Instead of being cooped up in an unterseeboot and hunted by our fellows, we want to have a hand in rounding up the German submarines. I vote we write to our respective governors about it."</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+    <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">Boxing has been in the news lately since Uwe Boll, in an attempt to prove that his films are good after all, challenged his critics to take him on in the ring. But did you know that boxing was not always a violent sport?
+
+As conceived in 1632 by Portuguese printing press operator Andre Felipe, boxing was a gentleman's game, in which two men would square off and regale each other with stories monotonous for days on end, until one of them fell to the ground from boredom or exhaustion. Over the next few years the new sport developed a respectable following of a few hundred local socialites.
+
+Ironically, it was Felipe's son, Andre Felipe Felipe, who developed what he called the "Punching" strategy, in 1637, after seeing a schoolboy strike another in anger, causing him to fall down. When Andre Felipe Felipe challenged the then-champion, British expatriate "Sleepless" Bill Bishop, to a match, Bishop was the odds-on favorite. You can imagine his surprise when, while he was describing what he had had for breakfast that morning, Andre walked up and thumped him in the neck, sending him down "for the count," in the parlance of our time.
+
+While it was universally agreed that the boy had violated the spirit of the game, officials were unable to find any actual rule that "Punching" violated, and were forced to let the victory stand. This upset caused an uproar in the boxing community large enough to spill over into local newspapers, which drew the interest of many outsiders to come see what all the fuss was about. The newcomers were enthralled to engage in these borderline-barbaric displays of human strength and skill, and the rest is history -- after a few spoilsport schoolmarms single-minded about safety added the padded gloves, of course.
+
+Today's boxing enthusiasts fantasize about a newcomer that would rock the ring the way Felipe did. Calcification of the modern rule set has essentially locked the "Punching" strategy into place, but it's easy to get caught up in the fantasy. Young scholars with big dreams often enter the ring with their crazy new trick, usually a variant of hypnosis, and though they've achieved the occasional victory, none of the gimmicks have been robust enough to make it to the big time.
+
+The real wonder, though, is that Andre Felipe's original vision of boxing is still around! Gentleman's Boxing clubs can be found in cities all over the world. You can visit one most any day of the week and see two erudite gentlemen exchanging pleasantries in the ring. Most people only come to watch a few hours of a match and then leave, but every once in a while you'll find amongst your elders a stout fellow, a die-hard fan, who perhaps witnessed that historic battle between Felipe and Bishop, who for love of the sport must stay to witness the last glorious seconds of wakefulness slip away... only to return to fight again another day.
+SRC:http://www.goombas.org
+</file>
+
+</Computer>

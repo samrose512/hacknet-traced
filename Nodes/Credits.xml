@@ -1,13 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<!--<Computer id="credits" name="Credits Server" ip="178.36.97.4" allowsDefaultBootModule="true" icon="DLCServer" type="4">-->
-<Computer id="credits" name="Credits Server" ip="1.2.3.4" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+<Computer id="credits" name="Credits Server" ip="178.36.97.4" allowsDefaultBootModule="true" icon="DLCServer" type="4">
   <admin type="none"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="0"/>
   <trace time="-1"/>
   <proxy time="-1"/>
   <firewall level="-1"/>
-  <CreditsDaemon Title="Credits Server" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/rid3rFinaleDecisionAdminGet.xml"/>
+  <CreditsDaemon Title="Credits Server" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
   <file path="home" name="CreditsData.txt">
 %--- Hacknet: Traced ---
 
@@ -25,6 +24,7 @@
 %Autumn
 %Kwiper
 %Hydra
+%Zepptril
 
 
 

@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Psylance Client Admin IRC Channel" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">I mean, yeah, media's saying videogames make people violent, but hundreds of years ago we were burning people alive because we thought they were witches. My money's on humans just being a bunch of assholes.</post>
+    <post user="da_vito">lol</post>
+    <post user="dardypants">I cannot believe that Yasu, seriously</post>
+    <post user="faithless">Who's that?</post>
+    <post user="dardypants">Yasu Arai, the Pacific Air IT Admin.</post>
+    <post user="dardypants">Just openly broadcasting his email password openly! He's the ADMIN for god's sake.</post>
+    <post user="faithless">What did he say?</post>
+    <post user="dardypants">Exact quote:</post>
+    <post user="dardypants"> "Can you log in to my laptop and do it for me? pass is 1185JACK"</post>
+    <post user="faithless">Holy shit, ahahaha</post>
+    <post user="faithless">I cant believe you'd even type that HERE</post>
+    <post user="dardypants">I got him to change it straight away, it's fine.</post>
+    <post user="dardypants">His email password is different too... Still.</post>
+    <post user="dardypants">We're meant to be defending this network! They're straight up sabotaging us at this point.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>
