@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="credits1" name="Credits Server" ip="178.36.97.4" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+  <admin type="none"/>
+  <ports>21,22,25,80</ports>
+  <portsForCrack val="0"/>
+  <trace time="-1"/>
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <CreditsDaemon Title="Credits Server" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsEnding1Actions.xml"/>
+  <file path="home" name="CreditsData.txt">
+%--- Hacknet: Traced ---
+
+^An extension by
+%Samaritan
+
+^Created for
+%Hackerjam 2
+
+^With thanks to
+%Matt Trobbiani
+%Spiderbenb
+%Fayti1703
+%RubberDuckShobe
+%Autumn
+%Kwiper
+%Hydra
+
+
+
+^Music used
+
+%Autophagy
+^Hiiragi Kirai feat. flower
+^Remixed by Hydra
+
+%Ambience
+^Kane Carter
+
+%Epitomize
+^Mittsies
+
+
+
+%and thanks to you, the player!</file>
+</Computer>

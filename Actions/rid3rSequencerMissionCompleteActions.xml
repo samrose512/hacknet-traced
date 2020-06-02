@@ -1,0 +1,10 @@
+<ConditionalActions>
+  <Instantly>
+    <CrashComputer TargetComp="ghostsMainframe" CrashSource="playerComp" DelayHost="FAH" Delay="0.0"/>
+    <ChangeIP DelayHost="FAH" Delay="0.0" TargetComp="ghostsMainframe" NewIP="#RANDOM_IP#"/>
+    <KillExe DelayHost="FAH" Delay="0.0" ExeName="Sequencer"/>
+    <RunFunction FunctionName="playCustomSong:Music/Ambience.ogg"/>
+    <SwitchToTheme ThemeOrPathName="Themes/RainTheme.xml" FlickerInDuration="3.0" DelayHost="FAH" Delay="0.0"/>
+    <LoadMission MissionName="Missions/rid3r_Missions/FinalePath/MissionsEnd.xml"/>
+  </Instantly>
+</ConditionalActions>

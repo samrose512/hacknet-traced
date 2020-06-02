@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="rid3rFinaleSequencerMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="clearfolder" target="ghostsMainframe" path="home/projects"/>
+  <goal type="clearfolder" target="ghostsMainframe" path="home/agents"/>
+  <goal type="clearfolder" target="ghostsMainframe" path="bin"/>
+</goals>
+<missionStart>addFlags:sequencerFlag</missionStart>
+<missionEnd>loadConditionalActions:Actions/rid3rSequencerMissionCompleteActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Finish this.</subject>
+    <body>You know what to do.</body>
+    <attachments>
+      <link comp="rid3rAssets"/>
+    </attachments>
+  </email>
+</mission>

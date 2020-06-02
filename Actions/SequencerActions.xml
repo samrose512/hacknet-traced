@@ -1,0 +1,11 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/Epitomize.ogg"/>
+  </Instantly>
+  <OnConnect target="ghostsMainframe">
+    <StartScreenBleedEffect AlertTitle="Breach" CompleteAction="Actions/SequencerFailActions.xml" TotalDurationSeconds="182.5" DelayHost="FAH" Delay="22.6">Break into the mainframe
+Delete all files
+Disconnect</StartScreenBleedEffect>
+    <SwitchToTheme ThemePathOrName="HacknetWhite" FlickerInDuration="3.0" DelayHost="FAH" Delay="22.6"/>
+  </OnConnect>
+</ConditionalActions>

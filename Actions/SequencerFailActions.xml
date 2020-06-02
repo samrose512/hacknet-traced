@@ -1,0 +1,9 @@
+<ConditionalActions>
+  <Instantly>
+    <CrashComputer TargetComp="playerComp" CrashSource="ghostsMainframe" DelayHost="FAH" Delay="0.0"/>
+    <ChangeIP DelayHost="FAH" Delay="0.5" TargetComp="ghostsMainframe" NewIP="#RANDOM_IP#"/>
+    <SwitchToTheme ThemeOrPathName="Themes/RainTheme.xml" FlickerInDuration="0.0" DelayHost="FAH" Delay="0.0"/>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/Ambience.ogg"/>
+    <CancelScreenBleedEffect DelayHost="FAH" Delay="0.0"/>
+  </Instantly>
+</ConditionalActions>

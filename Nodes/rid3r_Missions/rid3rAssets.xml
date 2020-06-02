@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<Computer id="rid3rAssets" name="rid3r Assets Server" security="1" allowsDefaultBootModule="false" type="4">
+<Computer id="rid3rAssets" name="rid3r Assets Server" security="1" ip="40.121.83.206" allowsDefaultBootModule="false" type="4">
   <adminPass pass="amphibian"/>
   <ports>21,22,25,80</ports>
   <portsForCrack val="4"/>

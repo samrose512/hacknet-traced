@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="ghostsMainframe" name="Ghosts_Mainframe" allowsDefaultBootModule="false" icon="DLCServer" type="4">
+  <admin type="fast" isSuper="true" resetPassword="true"/>
+  <ports>21,22,25,80,192,443,1433</ports>
+  <portsForCrack val="7"/>
+  <trace time="-1"/>
+  <proxy time="2"/>
+  <firewall level="8" additionalTime="0.25"/>
+  <file path="home/projects" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="home/projects" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="home/projects" name="FTPSprint.sln">#BINARYSMALL#</file>
+  <file path="home/projects" name="WebServerWorm.sln">#BINARYSMALL#</file>
+  <file path="home/agents" name="Mentel.docx">#BINARYSMALL#</file>
+  <file path="home/agents" name="c0deMagick.docx">#BINARYSMALL#</file>
+  <file path="home/agents" name="UniteSystem.docx">#BINARYSMALL#</file>
+  <file path="home/agents" name="#PLAYERNAME#.docx">#BINARY#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="Hacknet.exe">#HACKNET_EXE#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+</Computer>

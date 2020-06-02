@@ -1,4 +1,25 @@
 <ConditionalActions>
   <Instantly>
+    <AddIRCMessage Author="Channel" TargetComp="rid3rIRC1" Delay="2.5">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="rid3rIRC1" Delay="6.0">User UniteSystem has left the server (banned)</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="9.5">Are you okay, #PLAYERNAME#?</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="13.0">He didn't hurt your system?</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="18.0">Anyway, moving on.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="23.5">I'm not usually known as rid3r, truthfully it was a made-up nickname in order to provoke fear at your previously acquaintanced group.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="27.0">My real username...</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="30.5">is Bit.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="34.0">I'm a software programmer working on a project called Hacknet.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="37.5">I'm about to hand in my resignation from the project, but I'm almost certain if I do that, they'll try and attack me.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="41.0">Trouble is, the group you used to work for, Ghosts, they stole a copy of Hacknet and distributed it to multiple sites</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="44.5">That's probably how you have a copy of Hacknet right now.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="48.0">Anyway, we need to stop Ghosts once and for all.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="51.5">Take this cracker. I'm uploading it to the assets server now. It's a portcrusher for the Pacific Air port.</AddIRCMessage>
+    <AddAsset FileName="PacificPortcrusher.exe" FileContents="#PACIFIC_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="55.0">!ATTACHMENT:link#%#rid3r Assets Server#%#40.121.83.206</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="58.5">I've also uploaded a program that will connect you to their mainframe via a backdoor I installed a few minutes ago.</AddIRCMessage>
+    <AddAsset FileName="Sequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="rid3rAssets" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="65.0">Well then. I guess this is it.</AddIRCMessage>
+    <AddIRCMessage Author="rid3r" TargetComp="rid3rIRC1" Delay="68.5">Good luck, and hopefully I'll see you on the other side.</AddIRCMessage>
+    <AddConditionalActions Filepath="Actions/UniteSystemFinaleDecisionDestroy2.xml" DelayHost="FAH" Delay="75.0"/>
   </Instantly>
 </ConditionalActions>

@@ -1,5 +1,5 @@
 <ConditionalActions>
-  <OnConnect target="playerComp">
-    <LaunchHackScript Filepath="HackerScripts/AfterHackScript.txt" DelayHost="FAH" Delay="5.5" SourceComp="newIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-  </OnConnect>
+  <Instantly>
+    <RunFunction FunctionName="removeFlags:CSEC_Member"/>
+  </Instantly>
 </ConditionalActions>

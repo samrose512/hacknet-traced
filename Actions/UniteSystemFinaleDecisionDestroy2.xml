@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LoadMission MissionName="Missions/rid3r_Missions/FinalePath/SequencerMission.xml"/>
+  </Instantly>
+</ConditionalActions>

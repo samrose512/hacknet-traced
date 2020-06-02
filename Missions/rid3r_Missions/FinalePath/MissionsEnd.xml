@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="rid3rFinaleMissionsEnd" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="delay" time="30.0"/>
+</goals>
+<nextMission IsSilent="false">Missions/Ending2Mission.xml</nextMission>
+  <email>
+    <sender>rid3r</sender>
+    <subject>Thank you.</subject>
+    <body>#PLAYERNAME#,
+I cannot thank you enough for the help you have given me. It's great to see an organisation like Ghosts fall to the ground.
+Something I didn't anticipate happened though. The mainframe had a backup server, and it sent logs of my conversation with you about the Hacknet project to a core server, of which is owned by the company I work for.
+They'll see it and try to stop me. I won't be stopped, even if it kills me.
+
+I think that in the event of something like that to happen, I should add a contingency plan into a random copy of Hacknet and distribute it.
+How does "My name is Bit, and if you're reading this, I'm already dead." sound?
+
+-Bit
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>
