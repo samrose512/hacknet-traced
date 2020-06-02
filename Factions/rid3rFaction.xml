@@ -1,5 +1,14 @@
 <CustomFaction name="rid3r" id="rid3rFac" playerVal="0">
   <Action ValueRequired="1">
-    <AddAsset FileName="test.txt" FileContents="this is a test document bla bla bla 12341234" TargetComp="playerComp" TargetFolderpath="home"/>
+    <RunFunction FunctionName="addFlags:rid3rFlag2"/>
+  </Action>
+  <Action ValueRequired="2">
+    <RunFunction FunctionName="addFlags:rid3rFlag3"/>
+  </Action>
+  <Action ValueRequired="3">
+    <RunFunction FunctionName="addFlags:rid3rFlag4"/>
+  </Action>
+  <Action ValueRequired="4">
+    <AddConditionalActions Filepath="Actions/rid3rContinueDelayActions.xml" DelayHost="FAH" Delay-"0.5"/>
   </Action>
 </CustomFaction>

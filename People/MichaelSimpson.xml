@@ -2,6 +2,7 @@
 <Person id="Michael_Simpson" handle="m.simpson" firstName="Michael" lastName="Simpson" isMale="true">
   <Birthplace name="Birmingham, England"/>
   <Degrees>
+    <Degree uni="University of Oxford" gpa="4.7">Masters in Computer Science</Degree>
   </Degrees>
   <Medical>
     <Blood>AA</Blood>

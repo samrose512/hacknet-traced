@@ -3,13 +3,17 @@
 <goals>
   <goal type="wipedegrees" owner="Jean-Luc Stevenson"/>
 </goals>
-<missionEnd>addFlags:rid3rFlag2</missionEnd>
+<missionEnd>addRank</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
-  <posting title="placeholder title 1" reqs="rid3rFlag1">placeholder title, you have to do something to play the next mission idk</posting>
+  <posting title="Continuations" reqs="rid3rFlag1">Finish a job one of our users left uncompleted.</posting>
   <email>
     <sender>rid3r</sender>
-    <subject>placeholder title</subject>
-    <body>Wipe the degree clean, idc</body>
+    <subject>Continuations</subject>
+    <body>One of our fellow users was completing a mission when they had to leave for personal reasons. I don't hold it against them that it was personal, but we need this mission to be finished as soon as possible.
+I'm setting the task to you. Let's see how well you can perform.
+
+Remove all degrees of the person Jean-Luc Stevenson.
+    </body>
     <attachments>
       <link comp="academic"/>
     </attachments>

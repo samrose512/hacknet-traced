@@ -4,7 +4,7 @@
   <goal type="filechange" target="jmail" file="MedicalRecord_-_Herbert_John" path="mail/accounts/l.muna/inbox" keyword="Discord" removal="true"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/DoNoHarmActions.xml</missionStart>
-<missionEnd>addFlags:rid3rFlag3</missionEnd>
+<missionEnd>addRank</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <posting title="Do No Harm" reqs="rid3rFlag2">Send a questionable medical record to a user.</posting>
   <email>

@@ -3,7 +3,7 @@
 <goals>
   <goal type="AddDegree" owner="Michael Simpson" degree="Masters in Statistical Science" uni="University of Oxford" gpa="4.2"/>
 </goals>
-<missionEnd>addFlags:rid3rFlag4</missionEnd>
+<missionEnd>addRank</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <posting title="Graduation Day" reqs="rid3rFlag3">Help a user obtain a lucrative career.</posting>
   <email>

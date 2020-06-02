@@ -5,7 +5,7 @@
   <goal type="fileupload" target="playerComp" file="logins.hash" path="home" destTarget="rid3rAssets" destPath="home"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/GovMissionStart.xml</missionStart>
-<missionEnd>loadConditionalActions:Actions/rid3rContinueDelayActions.xml</missionEnd>
+<missionEnd>addRank</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <posting title="Fifty Stars" reqs="rid3rFlag4">Trace a file and find some important information.</posting>
   <email>
