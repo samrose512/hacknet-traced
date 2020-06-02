@@ -4,6 +4,7 @@
   <Degrees>
     <Degree uni="University of Oxford" gpa="4.7">Masters in Computer Science</Degree>
   </Degrees>
+  <DOB>01/01/1990 10:51:00</DOB>
   <Medical>
     <Blood>AA</Blood>
     <Height>173</Height>
@@ -11,6 +12,5 @@
     <Perscription>NONE</Perscription>
     <Notes>NONE</Notes>
   </Medical>
-  <DOB>01/01/1990 10:51:00</DOB>
   <Notes>Used for Missions/rid3r_Missions/Hub/DegreeAdd.xml</Notes>
 </Person>

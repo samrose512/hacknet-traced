@@ -5,6 +5,7 @@
     <Degree uni="Universite Perpignan Via Domitia" gpa="5.4">Masters in Computer Science</Degree>
     <Degree uni="Universite Perpignan Via Domitia" gpa="5.6">Masters in Mathematics</Degree>
   </Degrees>
+  <DOB>14/06/1990 14:25:00</DOB>
   <Medical>
     <Blood>O</Blood>
     <Height>175</Height>
@@ -13,6 +14,5 @@
     <Notes>Due to a heart condition from birth that cannot be treated, the patient has been fitted with a pacemaker to help regulate bloodflow. The IP address for the pacemaker is below for easy access by the pacemaker's firmware update team.
 16.180.232.45</Notes>
   </Medical>
-  <DOB>14/06/1998 14:25:00</DOB>
   <Notes>math boi</Notes>
 </Person>

@@ -9,6 +9,6 @@
     <RunFunction FunctionName="addFlags:rid3rFlag4"/>
   </Action>
   <Action ValueRequired="4">
-    <AddConditionalActions Filepath="Actions/rid3rContinueDelayActions.xml" DelayHost="FAH" Delay-"0.5"/>
+    <AddConditionalActions Filepath="Actions/rid3rContinueDelayActions.xml" DelayHost="FAH" Delay="0.5"/>
   </Action>
 </CustomFaction>

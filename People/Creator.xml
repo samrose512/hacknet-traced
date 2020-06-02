@@ -4,6 +4,7 @@
   <Degrees>
     <Degree uni="University of Suffolk" gpa="8.4">Masters in Computing</Degree>
   </Degrees>
+  <DOB>27/08/2004 10:55:00</DOB>
   <Medical>
     <Blood>O</Blood>
     <Height>170</Height>
@@ -11,6 +12,5 @@
     <Perscription>None</Perscription>
     <Notes>None</Notes>
   </Medical>
-  <DOB>27/08/2004 10:55:00</DOB>
   <Notes>Come on, Matt did it. It's only right that I do it.</Notes>
 </Person>

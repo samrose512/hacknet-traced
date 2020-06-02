@@ -4,6 +4,7 @@
   <Degrees>
     <Degree uni="City University of New York School of Law" gpa="5.8">Masters in Law</Degree>
   </Degrees>
+  <DOB>12/05/1999 14:30:00</DOB>
   <Medical>
     <Blood>AB</Blood>
     <Height>159</Height>
@@ -12,6 +13,5 @@
     <Perscription>Lisinopril x70 bi-monthly :: For high blood pressure due to Polycystic kidney disease</Perscription>
     <Notes>Vaccines for university tuition given in 2019, boost given in February 2020 and future boost to be given in March 2021.</Notes>
   </Medical>
-  <DOB>12/05/1999 14:30:00</DOB>
   <Notes>Used for Missions/rid3r_Missions/Hub/SendMedicalDocument.xml</Notes>
 </Person>
