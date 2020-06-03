@@ -7,6 +7,5 @@
   <trace time="100"/>
   <proxy time="1.5"/>
   <firewall level="6" additionalTime="0.25"/>
-  <file path="home" name="firewall.txt">talk shit about whitelist firewall password here</file>
   <WhitelistAuthenticatorDaemon Remote="kbt_network04"/>
 </Computer>

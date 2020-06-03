@@ -2,7 +2,7 @@
   <Instantly>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="5.0">!ANNOUNCEMENT!</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="8.5">It's done.</AddIRCMessage>
-    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="12.0">rid3r is on a plane that's crashing as we speak, and he has no way to stop it.<AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="12.0">rid3r is on a plane that's crashing as we speak, and he has no way to stop it.</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="15.5">So...</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="19.0">That's it? We're done here?</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="24.0">Yeah, we're done.</AddIRCMessage>

@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LoadMission MissionName="Missions/EndMission.xml"/>
+  </Instantly>
+</ConditionalActions>

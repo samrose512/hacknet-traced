@@ -1,6 +1,6 @@
 <ConditionalActions>
   <Instantly>
-    <RunFunction FunctionName="playCustomSong:Music/Music.ogg"/>
+    <RunFunction FunctionName="playCustomSong:Music/PeerGynt.ogg"/>
   </Instantly>
   <OnConnect target="rid3rIRC1">
     <RunFunction FunctionName="addFlags:rid3rIRCFlag"/>

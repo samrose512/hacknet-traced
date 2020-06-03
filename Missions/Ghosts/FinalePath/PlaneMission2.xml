@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="ghostsFinalePlaneMission2" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="delay" time=""/>
+  <goal type="delay" time="45.0"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/GhostsFinalePathPlaneCrashActions.xml</missionStart>
 <nextMission IsSilent="true">NONE</nextMission>

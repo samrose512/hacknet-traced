@@ -4,7 +4,7 @@
   <goal type="hasflag" target="rid3rIRCFlag"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/rid3rIRCInviteMissionActions.xml</missionStart>
-<missionEnd>loadConditionalActions:Actions/rid3rIRCConnectionDelayActions.xml</missionEnd>
+<missionEnd>loadConditionalActions:Actions/rid3rContinueDelayActions.xml</missionEnd>
 <nextMission IsSilent="false">NONE</nextMission>
   <email>
     <sender>rid3r</sender>

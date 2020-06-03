@@ -1,7 +1,4 @@
 <ConditionalActions>
-  <Instantly>
-    <RunFunction FunctionName="playCustomSong:Music/PeerGynt.ogg"/>
-  </Instantly>
   <OnAdminGained target="mentelGateway">
     <RunFunction FunctionName="addFlags:CSEC_Member"/>
     <LaunchHackScript Filepath="HackerScripts/GhostsEndScript.txt" DelayHost="FAH" Delay="0.5" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>

@@ -3,5 +3,6 @@
     <!--<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="0"/>
     <LoadMission MissionName="Missions/EndMission.xml"/>-->
     <RunFunction FunctionName="playCustomSong:Music/Autophagy.ogg"/>
+    <AddConditionalActions Filepath="Actions/CreditsActions2.xml" DelayHost="FAH" Delay="30.0"/>
   </Instantly>
 </ConditionalActions>

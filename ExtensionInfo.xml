@@ -9,7 +9,7 @@
   <Faction>Factions/StartingFaction.xml</Faction>
   <Faction>Factions/rid3rFaction.xml</Faction>
   <StartsWithTutorial>False</StartsWithTutorial>
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   <StartingTheme>Themes/RainTheme.xml</StartingTheme>
   <IntroStartupSong>Music/Ambience.ogg</IntroStartupSong>
   <SequencerTargetID>ghostsMainframe</SequencerTargetID>
@@ -19,7 +19,7 @@
   <WorkshopDescription>Created for #Hackerjam2</WorkshopDescription>
   <WorkshopLanguage>English</WorkshopLanguage>
   <WorkshopVisibility>0</WorkshopVisibility>
-  <WorkshopTags>Extension,Hackerjam2</WorkshopTags>
+  <WorkshopTags>Extension,Labyrinths,Hackerjam2</WorkshopTags>
   <WorkshopPreviewImagePath>Logo.png</WorkshopPreviewImagePath>
   <WorkshopPublishID>NONE</WorkshopPublishID>
 </HacknetExtension>

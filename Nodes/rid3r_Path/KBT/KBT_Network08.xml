@@ -6,7 +6,7 @@
   <trace time="50"/>
   <proxy time="1"/>
   <firewall level="4" additionalTime="0.0"/>
-  <encryptedFile path="bin" name="KBT_PortTest.dec" extension=".exe" ip="192.168.1.1" header="Kellis Biotech Pacemaker Port Stresser v0.8" pass="">#MEDICAL_PROGRAM#</encryptedFile>
+  <encryptedFile path="bin" name="KBT_PortTest.dec" extension=".exe" ip="192.168.1.1" header="Kellis Biotech Pacemaker Port Stresser v0.8">#MEDICAL_PROGRAM#</encryptedFile>
   <file path="home/Production" name="KellisMediaPack.zip">#BINARY##BINARY#</file>
   <file path="home/Production" name="PacemakerPlans.pdf">#BINARY#</file>
   <WhitelistAuthenticatorDaemon Remote="kbt_network07"/>

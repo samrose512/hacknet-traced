@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <mission id="c0deMagickEmail" activeCheck="true" shouldIgnoreSenderVerification="false">
 <goals>
-  <goal type="hasflags" target="JL_Stevenson:DEAD"/>
+  <goal type="hasflag" target="JL_Stevenson:DEAD"/>
   <goal type="delay" time="40.0"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/c0deMagickActions.xml</missionStart>

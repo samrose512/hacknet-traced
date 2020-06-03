@@ -1,6 +1,7 @@
 <ConditionalActions>
   <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/Autophagy.ogg"/>
     <LaunchHackScript Filepath="HackerScripts/Ending1Hack.txt" DelayHost="FAH" Delay="15.0" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSouceIntact="false"/>
-    <ChangeIP DelayHost="FAH" Delay="" TargetComp="ghostsEndHackComp" NewIP="#RANDOM_IP#"/>
+    <ChangeIP DelayHost="FAH" Delay="24.0" TargetComp="ghostsEndHackComp" NewIP="#RANDOM_IP#"/>
   </Instantly>
 </ConditionalActions>
