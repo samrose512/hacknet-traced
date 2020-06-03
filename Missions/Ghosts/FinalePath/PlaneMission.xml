@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghostsFinalePlaneMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="clearfolder" target="rid3rHijackedAirplane" path="home/FlightSystems"/>
+</goals>
+<nextMission IsSilent="true">Missions/Ghosts/FinalePath/PlaneMission2.xml</nextMission>
+  <email>
+    <sender>Error</sender>
+    <subject>Error</subject>
+    <body>If you receive this email, there has been an error. Please contact Samaritan about this.</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

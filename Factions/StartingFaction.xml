@@ -64,10 +64,10 @@
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="8.5">uh, Mentel?</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="11.0">you okay?</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="newIRC" Delay="13.5">@Mentel</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="16.0">He's not responding to anything.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="16.0">She's not responding to anything.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="18.5">This is bad.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="23.5">@#PLAYERNAME# @UniteSystem Mentel isn't responding to anything so I'm taking command.</AddIRCMessage>
-    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="26.0">This is his gateway server. Go and check his network for anything strange.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="26.0">This is her gateway server. Go and check her network for anything strange.</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="30.0">!ATTACHMENT:link#%#Mentel Gateway#%#147.29.205.13</AddIRCMessage>
     <AddIRCMessage Author="c0deMagick" TargetComp="newIRC" Delay="33.5">I've also uploaded a new file to the Assets Server for you guys. I'm not sure if you have it yet, #PLAYERNAME#.</AddIRCMessage>
     <LoadMission MissionName="Missions/Ghosts/GhostsEnd.xml"/>

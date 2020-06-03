@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/Ending1Hack.txt" DelayHost="FAH" Delay="15.0" SourceComp="ghostsEndHackComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSouceIntact="false"/>
+    <ChangeIP DelayHost="FAH" Delay="" TargetComp="ghostsEndHackComp" NewIP="#RANDOM_IP#"/>
+  </Instantly>
+</ConditionalActions>

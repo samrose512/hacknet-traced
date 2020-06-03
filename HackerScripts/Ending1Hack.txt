@@ -1,0 +1,29 @@
+config playerComp ghostsEndHackComp 0.5 $#%#$
+connect $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 5.0 $#%#$
+write WHO $#%#$
+write DO $#%#$
+write YOU $#%#$
+write THINK $#%#$
+write YOU $#%#$
+write ARE? $#%#$
+writel_silent $#%#$
+write YOU FUCKED UP MY PLANS $#%#$
+delay 1.0 $#%#$
+write NOW I FUCK UP YOURS $#%#$
+delete /sys * $#%#$
+forkbomb $#%#$
+delay 5.0 $#%#$
+writel_silent $#%#$
+write SAY GOODBYE, FUCKER $#%#$
+disconnect $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$

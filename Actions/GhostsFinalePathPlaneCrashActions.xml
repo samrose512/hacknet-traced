@@ -1,0 +1,16 @@
+<ConditionalActions>
+  <Instantly>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="5.0">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="8.5">It's done.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="12.0">rid3r is on a plane that's crashing as we speak, and he has no way to stop it.<AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="15.5">So...</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="19.0">That's it? We're done here?</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="24.0">Yeah, we're done.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="27.5">I recommend we do an IP rotation, get people off our tracks.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="31.0">Good idea.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="34.5">You'll all be contacted soon.</AddIRCMessage>
+    <AddIRCMessage Author="c0deMagick" TargetComp="ghostsFinaleIRC" Delay="38.0">Bye.</AddIRCMessage>
+    <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="41.5">See you guys.</AddIRCMessage>
+    <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="45.0">!ATTACHMENT:link#%#Ghosts IP Rotation Server#%#172.80.46.209</AddIRCMessage>
+  </Instantly>
+</ConditionalActions>

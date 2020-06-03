@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="ghostsFinalePlaneMission2" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="delay" time=""/>
+</goals>
+<missionStart>loadConditionalActions:Actions/GhostsFinalePathPlaneCrashActions.xml</missionStart>
+<nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>Error</sender>
+    <subject>Error</subject>
+    <body>If you receive this email, there has been an error. Please contact Samaritan about this.</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,6 +1,7 @@
 <ConditionalActions>
   <OnConnect target="ghostsFinaleIRC">
     <RunFunction FunctionName="addFlags:ghostsFinaleIRCConnected"/>
+    <ChangeAlertIcon Target="ghostsFinaleIRC" Type="irc" DelayHost="FAH" Delay="0.0"/>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="3.5">Hey @#PLAYERNAME#.</AddIRCMessage>
     <AddIRCMessage Author="Mentel" TargetComp="ghostsFinaleIRC" Delay="7.0">I hope you're alright. Did rid3r do anything to you?</AddIRCMessage>
     <AddIRCMessage Author="UniteSystem" TargetComp="ghostsFinaleIRC" Delay="10.5">Oh, am I going to get no thanks?</AddIRCMessage>
