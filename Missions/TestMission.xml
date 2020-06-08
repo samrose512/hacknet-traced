@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="testMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+  <email>
+    <sender>Test</sender>
+    <subject>Test</subject>
+    <body>Test</body>
+    <attachments>
+      <note title="Test">Test</note>
+    </attachments>
+  </email>
+</mission>
