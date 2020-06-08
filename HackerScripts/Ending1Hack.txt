@@ -17,10 +17,18 @@ write YOU FUCKED UP MY PLANS $#%#$
 delay 1.0 $#%#$
 write NOW I FUCK UP YOURS $#%#$
 delete /sys * $#%#$
+delete /home * $#%#$
+delete /bin * $#%#$
 forkbomb $#%#$
 delay 5.0 $#%#$
 writel_silent $#%#$
 write SAY GOODBYE, FUCKER $#%#$
+writel_silent $#%#$
+write Sometimes, $#%#$
+write you $#%#$
+write just $#%#$
+write don't $#%#$
+write win. $#%#$
 disconnect $#%#$
 flash $#%#$
 flash $#%#$

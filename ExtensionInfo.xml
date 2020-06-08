@@ -3,7 +3,7 @@
   <Name>Hacknet: Traced</Name>
   <AllowSaves>false</AllowSaves>
   <StartingVisibleNodes>oldIRC,networkEducationArchives</StartingVisibleNodes>
-  <StartingMission>Missions/Ghosts/FinalePath/FinaleIRCInvite.xml</StartingMission>
+  <StartingMission>Missions/StartingMission.xml</StartingMission>
   <StartingActions>Actions/NewGameActions.xml</StartingActions>
   <Description>Created for Hackerjam 2.</Description>
   <Faction>Factions/StartingFaction.xml</Faction>

@@ -4,7 +4,7 @@
   <goal type="hasflag" target="ghostsFinaleIRCConnected"/>
 </goals>
 <missionStart>loadConditionalActions:Actions/GhostsFinaleIRCConnectedActions.xml</missionStart>
-<nextMission IsSilent="false">Missions/TestMission.xml</nextMission>
+<nextMission IsSilent="false">NONE</nextMission>
   <email>
     <sender>Mentel</sender>
     <subject>(no subject)</subject>
